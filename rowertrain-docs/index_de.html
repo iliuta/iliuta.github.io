@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RowerTrain-App-Benutzerhandbuch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #2980B9;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>RowerTrain-App-Benutzerhandbuch</h1>
+
+    <section id="settings">
+        <h2>Einstellungen</h2>
+        <p>Die Einstellungsseite ermöglicht es Ihnen, verschiedene Aspekte der Anwendung zu konfigurieren, um Ihre Erfahrung anzupassen.
+            Hier
+            sind die wichtigsten Datenfelder, die sie enthalten kann:</p>
+        <ul>
+            <li><strong>Rowing FTP</strong>: ausgedrückt in min/500m.</li>
+            <li><strong>Entwicklermodus</strong>: ermöglicht die Aktivierung einiger versteckter Funktionen für Debugging-Zwecke.
+            </li>
+        </ul>
+        <p>Der FTP-Wert wird verwendet, um die Leistungsziele für die Trainingseinheiten zu berechnen.</p>
+    </section>
+
+    <section id="scan">
+        <h2>Geräte scannen</h2>
+        <p>Die Scan-Seite listet die verfügbaren Bluetooth-Geräte auf, wie Fitnessmaschinen und Sensoren. Die folgenden Geräte
+            werden
+            unterstützt: FTMS-kompatible Rudergeräte und Herzfrequenzmonitore</p>
+        <h3>Scannen nach Geräten</h3>
+        <ul>
+            <li>Tippen Sie auf die Schaltfläche "Geräte scannen", um nach nahegelegenen Bluetooth-fähigen Fitnessmaschinen und Sensoren zu suchen.
+            </li>
+            <li>Die App zeigt eine Liste der entdeckten Geräte an, einschließlich Rudergeräte und Herzfrequenzmonitore.
+            </li>
+            <li>Tippen Sie auf die Schaltfläche "Verbinden" neben dem Gerät, um es mit Ihrem Telefon zu koppeln.</li>
+        </ul>
+        <h3>Mit Strava verbinden</h3>
+        <ul>
+            <li>Verbinden Sie Ihr Strava-Konto, um Ihre Workouts zu synchronisieren.</li>
+            <li>Tippen Sie auf die Strava-Verbindungsschaltfläche, um Ihr Konto zu authentifizieren und zu verknüpfen.</li>
+            <li>Sobald verbunden, können Ihre Trainingseinheiten, sobald sie abgeschlossen sind, auf Strava hochgeladen werden.</li>
+        </ul>
+    </section>
+
+    <section id="start-training">
+        <h2>Starten und Durchführen einer Trainingseinheit</h2>
+        <h3>Eine Einheit starten</h3>
+        <ul>
+            <li>Stellen Sie sicher, dass Ihr Rudergerät und Sensoren verbunden sind.</li>
+            <li>Tippen Sie auf die Schaltfläche "Öffnen" neben dem Namen der verbundenen Maschine.</li>
+            <li>Oben sehen Sie eine Liste vordefinierter Routen. Optional können Sie eine davon auswählen. Wenn Sie das nicht tun, wählt die
+                Anwendung zufällig eine aus.
+            </li>
+            <li>Sie können wählen, eine "Freie Fahrt" zu starten, eine Trainingseinheit zu generieren oder eine gespeicherte "Trainingseinheit"
+                auszuwählen
+            </li>
+            <li>Freie Fahrt:
+                <ul>
+                    <li>Wählen Sie "Zeit" oder "Distanz".</li>
+                    <li>Wählen Sie die gewünschte Dauer oder Distanz.</li>
+                    <li>Optional können Sie für Ruderer die Schlagrate und die Pace-Ziele auswählen.</li>
+                    <li>Wenn die Maschine das Einstellen des Widerstands unterstützt, können Sie den Widerstandslevel des Ruderers in
+                        seinem akzeptierten Bereich auswählen.
+                        Einige Maschinen unterstützen diese Funktion nicht. In diesem Fall verwenden Sie die Bedienelemente Ihrer Maschine, um den Widerstand einzustellen.
+                    </li>
+                    <li>Tippen Sie auf "Start".</li>
+                </ul>
+            </li>
+            <li>Trainingseinheit-Generator:
+                <ul>
+                    <li>Wählen Sie die gewünschte Dauer.</li>
+                    <li>Wählen Sie den Workout-Typ.</li>
+                    <li>Wenn die Maschine das Einstellen des Widerstands unterstützt, können Sie den Widerstandslevel des Ruderers in
+                        seinem akzeptierten Bereich auswählen.
+                        Einige Maschinen unterstützen diese Funktion nicht. In diesem Fall verwenden Sie die Bedienelemente Ihrer Maschine, um den Widerstand einzustellen.
+                    </li>
+                    <li>Tippen Sie auf "Start".</li>
+                </ul>
+            </li>
+            <li>Gespeicherte Trainingseinheit:
+                <ul>
+                    <li>Wählen Sie eine Trainingseinheit aus der Liste.</li>
+                    <li>Tippen Sie auf "Einheit starten".</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Eine Einheit durchführen</h3>
+        <p>
+            Oben haben Sie den Einheitstitel und einige Steuerungen, die es ermöglichen, den Metronom-Sound, den Alert-Sound zu schneiden,
+            die Einheit zu pausieren/starten und zu stoppen.</p>
+        <p>
+            Sobald gestartet, sehen Sie oben eine visuelle Darstellung der Intervalle und die aktuelle verstrichene und
+            verbleibende Zeit oder Distanz.</p>
+        <p>
+            Links finden Sie das aktuelle Intervall mit seinen Zielen und der verstrichenen und verbleibenden Zeit oder Distanz.
+        </p>
+        <p>Der Hauptteil ist mit tatsächlichen Daten von der Fitnessmaschine und Sensoren gefüllt. Die Zielwerte, wie
+            in der Trainingseinheit definiert, ändern die Farbe zu Rot, wenn sie nicht im gewünschten Bereich liegen.</p>
+        <p>Außerdem gibt es eine Overlay-Karte mit Ihrer aktuellen Position und der Route.</p>
+        <p>Wenn das aktuelle Intervall kurz vor dem Ende steht, wird ein Piepton abgespielt, um Sie zu alarmieren.</p>
+
+        <h4>Eine Einheit starten</h4>
+        <p>
+            Beginnen Sie mit Rudern
+        </p>
+
+        <p>Wenn das aktuelle Intervall ein Schlagraten-Ziel hat, hören Sie einen Metronom-Sound bei der Ziel-Schlagrate.
+            Sie können diesen
+            Sound deaktivieren, indem Sie auf das Metronom-Icon tippen.
+            Eine visuelle Darstellung des Metronoms wird ebenfalls angezeigt, sodass Sie den Rhythmus verfolgen können.
+        </p>
+
+        <h4>Eine Einheit pausieren/fortsetzen</h4>
+        <p>Hören Sie auf zu rudern. Wenn keine Aktivität vorhanden ist, pausiert die App automatisch die Einheit.</p>
+        <p>Oder Sie können die Pause/Fortsetzen-Schaltfläche drücken.</p>
+
+        <h4>Eine Einheit beenden</h4>
+        <p>Rudern Sie bis zum Ende der Einheit. Sie haben dann drei Optionen:</p>
+        <ul>
+            <li>Die Einheit speichern. Wenn mit Strava verbunden, wird die Einheit automatisch auf Strava hochgeladen. Sie finden
+                sie dort mit der entsprechenden Routenkarte. Wenn nicht verbunden
+                mit Strava, finden Sie die Aktivität unter dem Menü "Unsynchronisierte Aktivitäten"</li>
+            <li>Die Einheit fortsetzen: Die Einheit wird verlängert, damit Sie weiter rudern können mit den
+                gleichen Einstellungen wie das letzte Intervall.</li>
+            <li>Die Einheit verwerfen: Alle Daten gehen verloren</li>
+        </ul>
+        <p>Sie können jederzeit die "Stop"-Schaltfläche drücken, um die Einheit zu beenden.</p>
+    </section>
+
+    <section id="edit-training">
+        <h2>Anzeigen und Bearbeiten von Trainingseinheiten</h2>
+        <p>Wählen Sie "Trainingseinheiten" aus dem Burger-Menü.</p>
+        <p>Es gibt eingebaute Trainingseinheiten und benutzerdefinierte Trainingseinheiten. Die eingebauten Einheiten können nicht bearbeitet werden
+            aber können dupliziert werden.</p>
+        <p>Sie können benutzerdefinierte Trainingseinheiten hinzufügen, bearbeiten und löschen. Sie werden lokal auf Ihrem Mobilgerät gespeichert.</p>
+        <p>Wenn Sie zuerst eine benutzerdefinierte Trainingseinheit erstellen, können Sie auswählen, ob die Einheit zeitbasiert oder distanzbasiert ist.
+            Sobald
+            ausgewählt und die Einheit gespeichert, können Sie ihren Typ nicht ändern.</p>
+        <p>Sie können "Einheitsintervalle" und "Gruppenintervalle" hinzufügen, bearbeiten und löschen.</p>
+        <p>Einheitsintervalle sind Intervalle mit einer Dauer oder Distanz, abhängig vom Einheitstyp. Gruppenintervalle sind
+            Intervalle, die ein oder mehrere Einheitsintervalle mit einer Anzahl von Wiederholungen enthalten.</p>
+        <p>Einheitsintervalle haben einen Titel, eine Dauer/Distanz und Ziele. Sie können wählen, ein Ziel für die
+            Pace oder die Kadenz zu haben.</p>
+        <p>Die Pace wird in Prozent ausgedrückt und ihre Werte werden <strong>basierend auf dem FTP-Wert berechnet, den Sie in
+                den
+                Einstellungen gesetzt haben.</strong></p>
+
+        <p><strong>Hinweis zum Widerstandslevel:</strong> Sie können für jedes Intervall einen Zielwiderstandswert 
+            von 1 bis 15 festlegen. Dieser Wert wird nur verwendet, wenn Ihr Fitnessgerät die Widerstandseinstellung 
+            über Bluetooth unterstützt. Einige Geräte haben einen anderen Widerstandsbereich. In diesem Fall passt die 
+            Anwendung den Bereich von 1 bis 15 an den vom Gerät unterstützten Bereich an.
+        </p>
+
+    </section>
+    <section id="fit-files">
+        <h2>Unsynchronisierte Aktivitäten</h2>
+        <p>Wählen Sie "Unsynchronisierte Aktivitäten" aus dem Burger-Menü.</p>
+        <p>Sie finden dort die Workout-Dateien, die von der App generiert wurden, als sie nicht an Strava gesendet werden konnten.</p>
+        <p>Für jede können Sie versuchen, sie auf Strava hochzuladen, sie löschen oder mit anderen Apps teilen.</p>
+        <p>Tippen Sie auf den Aktivitätsnamen. Sie sehen eine visuelle Darstellung der Daten in der Datei, wie Geschwindigkeit/Pace,
+            Kadenz und Herzfrequenz</p>
+        <p>Wenn Sie mit Strava verbunden sind und Uploads nicht fehlgeschlagen sind, sollte die Liste leer sein.</p>
+    </section>
+    <section id="developer-mode">
+        <h2>Entwicklermodus</h2>
+        <p>Wenn Sie den Entwicklermodus in den Einstellungen aktivieren, haben Sie Zugriff auf die unterstützten Funktionen der Fitnessmaschine
+            und können Daten von und zur Maschine lesen und senden.</p>
+        <p><strong>Warnung:</strong> Verwenden Sie dies mit Vorsicht!</p>
+        <p>Von der Scan-Seite aus wählen Sie die Maschine und tippen auf "Öffnen". Sie sehen zwei Menüs unten auf der Seite: "Gerätedatenfunktionen"
+            und "Maschinenfunktionen".</p>
+        <h3>Gerätedatenfunktionen</h3>
+        <p>Hier sind die Daten, die von der Maschine gelesen werden können, mit den aktuellen Werten.</p>
+        <h3>Maschinenfunktionen</h3>
+        <p>Hier sind die Befehle, die an die Maschine gesendet werden können. Unter ihnen könnten Sie den "Widerstandslevel" setzen
+            oder das Leistungsziel (ERG-Modus). Wenn Sie eines davon verwenden möchten, senden Sie immer zuerst den Anforderungskontrollbefehl.</p>
+    </section>
+</body>
+
+</html>
