@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Turnstile</title>
+</head>
+<body>
+    <div class="cf-turnstile" 
+        data-sitekey="0x4AAAAAACHxPQVrUUcJwsE9" 
+        data-callback="onTurnstileSuccess" 
+        data-appearance="interaction-only">
+    </div>
+    <br>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <script>
+        function onTurnstileSuccess(token) {
+            console.log('Turnstile token:', token);
+            globalThis.turnstileCallback.postMessage(token);
+        }
+    </script>
+</body>
+</html>

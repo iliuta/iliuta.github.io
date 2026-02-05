@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTMS App User Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #2980B9;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>RowerTrain App User Guide</h1>
+
+    <section id="settings">
+        <h2>Settings Page</h2>
+        <p>The Settings page allows you to configure various aspects of the application to customize your experience.
+            Here
+            are the key data fields it can hold:</p>
+        <ul>
+            <li><strong>Rowing FTP</strong>: expressed in min/500m.</li>
+            <li><strong>Developer mode</strong>: allows the activation of some hidden features for debugging purposes.
+            </li>
+        </ul>
+        <p>The FTP value is used to calculate the power targets for the training sessions.</p>
+    </section>
+
+    <section id="scan">
+        <h2>Scan Page</h2>
+        <p>The scan page lists the available Bluetooth devices, like fitness machines and sensors. The following devices
+            are
+            supported: FTMS-compatible rowing machines and heart rate monitors</p>
+        <h3>Scanning for Devices</h3>
+        <ul>
+            <li>Tap the "Scan for devices" button to search for nearby Bluetooth-enabled fitness machines and sensors.
+            </li>
+            <li>The app will display a list of discovered devices, including rowing machines and heart
+                rate
+                monitors.
+            </li>
+            <li>Tap the "Connect" button near the device to pair it with your phone.</li>
+        </ul>
+        <h3>Strava Connection</h3>
+        <ul>
+            <li>Connect your Strava account to sync your workouts.</li>
+            <li>Tap the Strava connection button to authenticate and link your account.</li>
+            <li>Once connected, your training sessions, when completed, can be uploaded to Strava.</li>
+        </ul>
+    </section>
+
+    <section id="start-training">
+        <h2>Starting and Performing a Training Session</h2>
+        <h3>Starting a session</h3>
+        <ul>
+            <li>Ensure your rowing machine and sensors are connected.</li>
+            <li>Tap the "Open" button near the connected machine name.</li>
+            <li>On top you'll see a list of predefined routes. Optionally you may select one of them. If you don't, the
+                application will pick up one randomly.
+            </li>
+            <li>You may choose to start a "Free ride", generate a training session or select a saved "Training session"
+            </li>
+            <li>Free ride:
+                <ul>
+                    <li>Select "Time" or "Distance".</li>
+                    <li>Select the desired duration or distance.</li>
+                    <li>Optionally, for rowers, you can select the stroke rate and the pace targets.</li>
+                    <li>If the machine supports setting the resistance, you can select the rower resistance
+                        level in its accepted range. Some machines do not support setting the resistance through software.
+                        In that case you can set it manually on the machine.
+                    </li>
+                    <li>Tap "Start".</li>
+                </ul>
+            </li>
+            <li>Training session generator:
+                <ul>
+                    <li>Select the desired duration.</li>
+                    <li>Select the workout type.</li>
+                    <li>If the machine supports setting the resistance, you can select the rower resistance
+                        level in its accepted range. Some machines do not support setting the resistance through software.
+                        In that case you can set it manually on the machine.
+                    </li>
+                    <li>Tap "Start".</li>
+                </ul>
+            </li>
+            <li>Saved training session:
+                <ul>
+                    <li>Select a training session from the list.</li>
+                    <li>Tap "Start session".</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Performing a session</h3>
+        <p>
+            On top you have the session title and some controls allowing to cut the metronome's sound, the alerts sound,
+            to pause/start and stop the session.</p>
+        <p>
+            Once started, you'll see at the top a visual representation of the intervals and the current elapsed and
+            remaining time or distance.</p>
+        <p>
+            On the left, you'll find the current interval with its targets and elapsed and remaining time or distance.
+        </p>
+        <p>The main part is filled with actual data coming from the fitness machine and sensors. The target values, as
+            defined in the training session, change the color to red when not in the desired range.</p>
+        <p>Also, there is an overlay map with your current position and the route.</p>
+        <p>When the current interval is about to end, a beep is played to alert you.</p>
+
+        <h4>Starting a session</h4>
+        <p>
+            Start rowing
+        </p>
+
+        <p>If the current interval has a stroke rate target, then you'll hear a metronome sound at the target stroke
+            rate. You may disable this
+            sound by tapping the metronome icon.
+            A visual representation of the metronome will also be displayed, allowing you to follow the rhythm.
+        </p>
+
+        <h4>Pausing/resuming a session</h4>
+        <p>Stop rowing. If there is no activity, the app will automatically pause the session.</p>
+        <p>Or, you can tap the pause/resume button.</p>
+
+        <h4>Ending a session</h4>
+        <p>Row until the end of the session. You'll have three options then:</p>
+        <ul>
+            <li>Save the session. If connected to Strava, the session is uploaded automatically to Strava. You'll find
+                it there with the corresponding route map. If not connected
+                to Strava, you'll find the activity under the "Unsynchronized activities" menu</li>
+            <li>Continue the session: the session will be prolonged so that you can continue rowing with the
+                same settings as the last interval.</li>
+            <li>Discard the session: all data is lost</li>
+        </ul>
+        <p>You can hit the "Stop" button any time to end the session.</p>
+    </section>
+
+    <section id="edit-training">
+        <h2>Viewing and editing training sessions</h2>
+        <p>Select "Training sessions" from the burger menu.</p>
+        <p>There are built-in training sessions and custom training sessions. The built-in sessions cannot be edited
+            but can be duplicated.</p>
+        <p>You can add, edit, and delete custom training sessions. They are stored locally on your mobile device.</p>
+        <p>When you create first a custom training session, you can select whether the session is time based or distance
+            based. Once
+            selected and the session saved, you cannot change its type.</p>
+        <p>You can add, edit, and delete "unit intervals" and "group intervals".</p>
+        <p>Unit intervals are intervals with a duration or distance, depending on the session type. Group intervals are
+            intervals containing one or more unit intervals with a number of repetitions.</p>
+        <p>Unit intervals have a title, a duration/distance and targets. You can choose to have a target for the
+            pace, or the cadence.</p>
+        <p>The pace is expressed in percent and its values are <strong>calculated based on the FTP value you set
+                in
+                the settings.</strong></p>
+
+        <p><strong>Note about the resistance level:</strong> You can set a target resistance level from 1 to 15 for each 
+            interval. This value will only be used if your fitness machine supports resistance adjustment via Bluetooth. 
+            Some machines have a different resistance range. In this case, the application adapts the 1 to 15 range to 
+            the range supported by the machine.
+        </p>
+
+    </section>
+    <section id="fit-files">
+        <h2>Unsynchronized activities</h2>
+        <p>Select "Unsynchronized activities" from the burger menu.</p>
+        <p>You'll find there the workout files generated by the app when they couldn't be sent to Strava.</p>
+        <p>For each, you can try to upload it to Strava, delete it, or share it with other apps.</p>
+        <p>Tap on the activity name. You'll see visual representation of data contained in the file, like speed/pace,
+            cadence and heart rate</p>
+        <p>If you're connected to Strava and uploads didn't fail, the list should be empty.</p>
+    </section>
+    <section id="developer-mode">
+        <h2>Developer mode</h2>
+        <p>When you activate the developer mode in the settings, you'll have access to the fitness machine's supported
+            features and you can read and send data from and to the machine.</p>
+        <p><strong>Warning:</strong> Use this with caution!</p>
+        <p>From the scan page, select the machine and tap "Open". You'll see two menus down the page: "Device data
+            features"
+            and "Machine features".</p>
+        <h3>Device data features</h3>
+        <p>Here are the data that can be read from the machine, with the current values.</p>
+        <h3>Machine features</h3>
+        <p>Here are the commands that can be sent to the machine. Among them, you might be able to set the "resistance
+            level" or the power target (ERG mode). When you want to use one of those, always send the request control
+            command first.</p>
+    </section>
+</body>
+
+</html>

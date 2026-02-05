@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide de l'utilisateur de l'application RowerTrain</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #2980B9;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Guide de l'utilisateur de l'application RowerTrain</h1>
+
+    <section id="settings">
+        <h2>Paramètres</h2>
+        <p>La page des paramètres vous permet de configurer divers aspects de l'application pour personnaliser votre expérience.
+            Voici
+            les principaux champs de données qu'elle peut contenir :</p>
+        <ul>
+            <li><strong>FTP Aviron</strong> : exprimé en min/500m.</li>
+            <li><strong>Mode développeur</strong> : permet l'activation de certaines fonctionnalités cachées pour le débogage.
+            </li>
+        </ul>
+        <p>La valeur du FTP est utilisée pour calculer les cibles de puissance pour les sessions d'entraînement.</p>
+    </section>
+
+    <section id="scan">
+        <h2>Recherche d'appareils</h2>
+        <p>La page de scan liste les appareils Bluetooth disponibles, comme les machines de fitness et les capteurs. Les appareils suivants
+            sont
+            pris en charge : les rameurs compatibles FTMS et les moniteurs de fréquence cardiaque</p>
+        <h3>Recherche d'appareils</h3>
+        <ul>
+            <li>Appuyez sur le bouton "Scanner les appareils" pour rechercher les machines de fitness et capteurs Bluetooth à proximité.
+            </li>
+            <li>L'application affichera une liste des appareils découverts, incluant les rameurs et les moniteurs de fréquence cardiaque.
+            </li>
+            <li>Appuyez sur le bouton "Connecter" près de l'appareil pour l'associer à votre téléphone.</li>
+        </ul>
+        <h3>Se connecter à Strava</h3>
+        <ul>
+            <li>Connectez votre compte Strava pour synchroniser vos entraînements.</li>
+            <li>Appuyez sur le bouton de connexion Strava pour authentifier et lier votre compte.</li>
+            <li>Une fois connecté, vos sessions d'entraînement, une fois terminées, peuvent être téléchargées sur Strava.</li>
+        </ul>
+    </section>
+
+    <section id="start-training">
+        <h2>Démarrage et réalisation d'une session d'entraînement</h2>
+        <h3>Démarrage d'une session</h3>
+        <ul>
+            <li>Assurez-vous que votre rameur et vos capteurs sont connectés.</li>
+            <li>Appuyez sur le bouton "Ouvrir" près du nom de la machine connectée.</li>
+            <li>En haut, vous verrez une liste d'itinéraires prédéfinis. Vous pouvez en sélectionner un optionnellement. Si vous ne le faites pas, l'
+                application en choisira un au hasard.
+            </li>
+            <li>Vous pouvez choisir de démarrer un "Sortie libre", générer une session d'entraînement ou sélectionner une "Session d'entraînement"
+                sauvegardée
+            </li>
+            <li>Sortie libre :
+                <ul>
+                    <li>Sélectionnez "Temps" ou "Distance".</li>
+                    <li>Sélectionnez la durée ou la distance souhaitée.</li>
+                    <li>Optionnellement, vous pouvez sélectionner des cibles de cadence cible et d'alure.</li>
+                    <li>Si la machine prend en charge le réglage de la résistance, vous pouvez sélectionner le niveau de résistance du rameur dans
+                        sa plage acceptée. Certaines machines ne prennent pas en charge cette fonctionnalité. Dans ce cas, utiliser les commandes de votre
+                        machine pour régler la résistance.
+                    </li>
+                    <li>Appuyez sur "Démarrer".</li>
+                </ul>
+            </li>
+            <li>Générateur de session d'entraînement :
+                <ul>
+                    <li>Sélectionnez la durée souhaitée.</li>
+                    <li>Sélectionnez le type d'entraînement.</li>
+                    <li>Si la machine prend en charge le réglage de la résistance, vous pouvez sélectionner le niveau de résistance du rameur dans
+                        sa plage acceptée. Certaines machines ne prennent pas en charge cette fonctionnalité. Dans ce cas, utiliser les commandes de votre
+                        machine pour régler la résistance.
+                    </li>
+                    <li>Appuyez sur "Démarrer".</li>
+                </ul>
+            </li>
+            <li>Session d'entraînement sauvegardée :
+                <ul>
+                    <li>Sélectionnez une session d'entraînement dans la liste.</li>
+                    <li>Appuyez sur "Démarrer la session".</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Réalisation d'une session</h3>
+        <p>
+            En haut, vous avez le titre de la session et quelques contrôles permettant de couper le son du métronome, le son des alertes,
+            de mettre en pause/démarrer et arrêter la session.</p>
+        <p>
+            Une fois démarrée, vous verrez en haut une représentation visuelle des intervalles et le temps écoulé actuel et
+            restant ou la distance.</p>
+        <p>
+            À gauche, vous trouverez l'intervalle actuel avec ses cibles et le temps écoulé et restant ou la distance.
+        </p>
+        <p>La partie principale est remplie avec les données réelles provenant de la machine de fitness et des capteurs. Les valeurs cibles, telles que
+            définies dans la session d'entraînement, changent de couleur en rouge lorsqu'elles ne sont pas dans la plage souhaitée.</p>
+        <p>Il y a aussi une carte superposée avec votre position actuelle et l'itinéraire.</p>
+        <p>Lorsque l'intervalle actuel est sur le point de se terminer, un bip est joué pour vous alerter.</p>
+
+        <h4>Démarrage d'une session</h4>
+        <p>
+            Commencez à ramer ou pédaler
+        </p>
+
+        <p>Si l'intervalle actuel a une cadence cible, alors vous entendrez un son de métronome au rythme de cadence cible.
+            Vous pouvez désactiver ce son en appuyant sur l'icône du métronome.
+            Une représentation visuelle du métronome sera affichée également, permettant de suivre le rythme.
+        </p>
+
+        <h4>Mise en pause d'une session</h4>
+        <p>Arrêtez de ramer. S'il n'y a pas d'activité, l'application mettra automatiquement la session en pause.</p>
+        <p>Ou, vous pouvez appuyer sur le bouton pause.</p>
+
+        <h4>Fin d'une session</h4>
+        <p>Ramez jusqu'à la fin de la session. Vous aurez alors trois options :</p>
+        <ul>
+            <li>Sauvegarder la session. Si connecté à Strava, la session est téléchargée automatiquement sur Strava. Vous la trouverez
+                là avec la carte d'itinéraire correspondante. Si pas connecté
+                à Strava, vous trouverez l'activité sous le menu "Activités non synchronisées"</li>
+            <li>Continuer la session : la session sera prolongée pour que vous puissiez continuer à ramer avec les
+                mêmes paramètres que le dernier intervalle.</li>
+            <li>Abandonner la session : toutes les données sont perdues</li>
+        </ul>
+        <p>Vous pouvez appuyer sur le bouton "Arrêter" à tout moment pour terminer la session.</p>
+    </section>
+
+    <section id="edit-training">
+        <h2>Visualisation et modification des sessions d'entraînement</h2>
+        <p>Appuyez sur le bouton "Sessions d'entraînement".</p>
+        <p>Il y a des sessions d'entraînement intégrées et des sessions d'entraînement personnalisées. Les sessions intégrées ne peuvent pas être modifiées
+            mais peuvent être dupliquées et modifiées par la suite.</p>
+        <p>Vous pouvez ajouter, éditer et supprimer des sessions d'entraînement personnalisées. Elles sont stockées localement sur votre appareil mobile.</p>
+        <p>Lorsque vous créez d'abord une session d'entraînement personnalisée, vous pouvez sélectionner si la session est basée sur le temps ou la distance
+            basée. Une fois
+            sélectionnée et la session sauvegardée, vous ne pouvez pas changer son type.</p>
+        <p>Vous pouvez ajouter, éditer et supprimer des "intervalles unitaires" et des "intervalles de groupe".</p>
+        <p>Les intervalles unitaires sont des intervalles avec une durée ou une distance, selon le type de session. Les intervalles de groupe sont
+            des intervalles contenant un ou plusieurs intervalles unitaires avec un nombre de répétitions.</p>
+        <p>Les intervalles unitaires ont un titre, une durée/distance et des cibles. Vous pouvez choisir d'avoir une cible pour l'allure ou la cadence.</p>
+        <p>L'allure cible est exprimée en pourcentage et ses valeurs sont <strong>calculées en fonction de la valeur FTP que vous avez définie
+                dans les paramètres.</strong></p>
+
+        <p><strong>Note sur le niveau de résistance :</strong> Vous pouvez définir un niveau de résistance cible de 1 à 15 pour chaque intervalle.
+            Cette valeur sera utilisée uniquement si votre machine de fitness prend en charge le réglage de la résistance via Bluetooth.
+            Certaines machines ont une plage de résistance différente. Dans ce cas, l'application adapte la plage de 1 à 15 à la plage prise en charge par la machine.
+        </p>
+
+    </section>
+    <section id="fit-files">
+        <h2>Activités non synchronisées</h2>
+        <p>Appuyez sur le bouton "Activités non synchronisées" en bas de la page de recherche des appareils.</p>
+        <p>Vous trouverez là les fichiers d'entraînement générés par l'application lorsqu'ils n'ont pas pu être envoyés à Strava.</p>
+        <p>Pour chacun, vous pouvez essayer de le télécharger sur Strava, le supprimer, ou le partager avec d'autres applications.</p>
+        <p>Appuyez sur le nom de l'activité. Vous verrez une représentation visuelle des données contenues dans le fichier, comme la vitesse/rythme,
+            la cadence et la fréquence cardiaque</p>
+        <p>Si vous êtes connecté à Strava et que les téléchargements n'ont pas échoué, la liste devrait être vide.</p>
+    </section>
+    <section id="developer-mode">
+        <h2>Mode développeur</h2>
+        <p>Lorsque vous activez le mode développeur dans les paramètres, vous aurez accès aux fonctionnalités prises en charge par la machine de fitness
+            et vous pouvez lire et envoyer des données de et vers la machine.</p>
+        <p><strong>Avertissement :</strong> Utilisez ceci avec prudence !</p>
+        <p>Depuis la page de scan, sélectionnez la machine et appuyez sur "Ouvrir". Vous verrez deux menus en bas de la page : "Fonctionnalités de données d'appareil"
+            et "Fonctionnalités de machine".</p>
+        <h3>Fonctionnalités de données d'appareil</h3>
+        <p>Voici les données qui peuvent être lues depuis la machine, avec les valeurs actuelles.</p>
+        <h3>Fonctionnalités de machine</h3>
+        <p>Voici les commandes qui peuvent être envoyées à la machine. Parmi elles, vous pourriez pouvoir définir le "niveau de résistance"
+            ou la cible de puissance (mode ERG). Lorsque vous voulez utiliser l'une de celles-ci, envoyez toujours d'abord la commande de contrôle de demande.</p>
+    </section>
+</body>
+
+</html>
