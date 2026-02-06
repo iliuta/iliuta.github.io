@@ -41,6 +41,8 @@ I'm open to suggestions and improvements! Feel free to reach out:
 ![iPhone 2](screenshots/iphone2.png) 
 ![iPhone 3](screenshots/iphone3.png)
 ![iPhone 4](screenshots/iphone4.png)
+![iPhone 4](screenshots/iphone5.png)
+![iPhone 4](screenshots/iphone6.png)
 
 ---
 
