@@ -1,10 +1,16 @@
 ## About
 
-Hello! I'm Adrian, and I've built **RowerTrain** - a powerful rowing machine app designed specifically for indoor rowing machines to enhance your training experience and boost your rowing performance.
+Hello! I'm Adrian, and I've built **RowerTrain** - an app for connected rowers, designed to enhance your training experience and boost your rowing performance.
 
-This rowing training software works smoothly with a wide range of rowing ergometers, including popular models from Domyos, Concept2, Christopeit, Merach, and other FTMS-compatible rowing machines.
+I originally wrote this app for Decathlon Domyos rowers. It turned out that Decathlon decided to stop maintaining the Domyos eConnected app and direct users to the Kinomap app. I didn't find that app very useful, so I decided to create my own.
 
-Simply connect your rowing machine to your smartphone via Bluetooth and start your rowing workout session. Your rower must support the FTMS (Fitness Machine Service) Bluetooth protocol to work with RowerTrain.
+RowerTrain works with a wide range of rowing ergometers, including popular models like Domyos 500, 900, Woodrower as well as other brands like Concept2, Christopeit, Merach, and others. If your rower doesn't work with RowerTrain, please let me know. Sometimes rowers, especially entry-level models, don't fully comply with the FTMS protocol. However, thanks to user feedback, I've been able to fix some issues and improve compatibility.
+
+Simply connect your rowing machine to your smartphone via Bluetooth and start your rowing workout session. Your rower must support the Bluetooth FTMS (Fitness Machine Service) protocol to work with RowerTrain.
+
+## Note on the Proposed Training Sessions
+
+The provided training sessions are given as examples. If you find they don't suit you, you can create your own training sessions using the built-in editor. You can also report any issues or errors you encounter so I can fix them.
 
 ## Contact & Feedback
 
