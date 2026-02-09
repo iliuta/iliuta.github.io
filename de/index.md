@@ -1,3 +1,4 @@
+{% include change-language.md %}
 ## Über mich
 
 Hallo! Ich bin Adrian und habe **RowerTrain** entwickelt – eine App für verbundene Ruderer, die dazu konzipiert ist, dein Trainingserlebnis zu verbessern und deine Ruderleistung zu steigern.
@@ -43,12 +44,12 @@ Ich bin offen für Vorschläge und Verbesserungen! Zögere nicht, mich zu kontak
 
 ## Bildschirmfotos
 
-![iPhone 1](screenshots/iphone1.png)
-![iPhone 2](screenshots/iphone2.png) 
-![iPhone 3](screenshots/iphone3.png)
-![iPhone 4](screenshots/iphone4.png)
-![iPhone 4](screenshots/iphone5.png)
-![iPhone 4](screenshots/iphone6.png)
+![iPhone 1](../screenshots/iphone1.png)
+![iPhone 2](../screenshots/iphone2.png) 
+![iPhone 3](../screenshots/iphone3.png)
+![iPhone 4](../screenshots/iphone4.png)
+![iPhone 4](../screenshots/iphone5.png)
+![iPhone 4](../screenshots/iphone6.png)
 
 ---
 

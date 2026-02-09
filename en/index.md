@@ -1,3 +1,4 @@
+{% include change-language.md %}
 ## About
 
 Hello! I'm Adrian, and I've built **RowerTrain** - an app for connected rowers, designed to enhance your training experience and boost your rowing performance.
@@ -43,12 +44,12 @@ I'm open to suggestions and improvements! Feel free to reach out:
 
 ## Screenshots
 
-![iPhone 1](screenshots/iphone1.png)
-![iPhone 2](screenshots/iphone2.png) 
-![iPhone 3](screenshots/iphone3.png)
-![iPhone 4](screenshots/iphone4.png)
-![iPhone 4](screenshots/iphone5.png)
-![iPhone 4](screenshots/iphone6.png)
+![iPhone 1](../screenshots/iphone1.png)
+![iPhone 2](../screenshots/iphone2.png) 
+![iPhone 3](../screenshots/iphone3.png)
+![iPhone 4](../screenshots/iphone4.png)
+![iPhone 4](../screenshots/iphone5.png)
+![iPhone 4](../screenshots/iphone6.png)
 
 ---
 

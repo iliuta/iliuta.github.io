@@ -20,9 +20,4 @@ lang: en
   }
 </script>
 
-<div style="text-align: right; margin-bottom: 20px;">
-  <strong>Language / Langue / Sprache:</strong>
-  <a href="/">English</a> | <a href="/fr/">Français</a> | <a href="/de/">Deutsch</a>
-</div>
-
-{% include_relative README.md %}
+{% include_relative en/index.md %}
