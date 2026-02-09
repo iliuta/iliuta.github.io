@@ -6,6 +6,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://iliuta.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://iliuta.github.io/de/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://iliuta.github.io/" />
   </url>
   <url>
@@ -13,6 +14,15 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://iliuta.github.io/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://iliuta.github.io/de/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://iliuta.github.io/fr/" />
+  </url>
+  <url>
+    <loc>https://iliuta.github.io/de/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iliuta.github.io/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iliuta.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://iliuta.github.io/de/" />
   </url>
 </urlset>

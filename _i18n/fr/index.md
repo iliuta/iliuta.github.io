@@ -1,14 +1,21 @@
 ## À Propos
 
-Bonjour! Je suis Adrian, et j'ai créé **RowerTrain** - une application puissante pour rameurs conçue spécifiquement pour les rameurs d'intérieur afin d'améliorer votre expérience d'entraînement et d'augmenter vos performances en aviron.
+Bonjour! Je suis Adrian, et j'ai créé **RowerTrain** - une application pour rameurs connectés, conçue afin d'améliorer votre expérience d'entraînement et d'augmenter vos performances.
 
-Ce logiciel d'entraînement en aviron fonctionne parfaitement avec une large gamme d'ergomètres d'aviron, y compris les modèles populaires de Domyos, Concept2, Christopeit, Merach et autres rameurs compatibles FTMS.
+J'ai écrit initialement cette application pour les rameurs Decathlon Domyos. Il se trouve que chez Decathlon ils ont
+décidé de ne plus maintenir l'application Domyos eConnected et de diriger les utilisateurs vers l'application Kinomap. Je n'ai pas trouvé cette application très utile, donc j'ai décidé de créer la mienne.
+
+RowerTrain fonctionne avec une large gamme d'ergomètres d'aviron, y compris les modèles populaires, comme Domyos 500, 900, Woodrower mais aussi d'autres marques, comme Concept2, Christopeit, Merach, etc. Si toutefois votre rameur ne marche pas avec RowerTrain, n'hésitez pas à me le faire savoir. Parfois les rameurs, surtout les modèles d'entrée de gamme, ne respectent pas en totalité le protocole FTMS. Mais, grâce au retours des utilisateurs, j'ai pu corriger quelques problèmes et augmenter ainsi la compatibilité.
 
 Connectez simplement votre rameur à votre smartphone via Bluetooth et commencez votre séance d'aviron. Votre rameur doit supporter le protocole Bluetooth FTMS (Fitness Machine Service) pour fonctionner avec RowerTrain.
 
+## Note sur les séances d'entrainement proposées
+
+Les séances proposées sont données à titre d'exemple. Si vous trouvez qu'elles ne vous sont pas adaptées vous pourrez  créer vos propres séances d'entrainement en utilisant l'éditeur de intégré. Vous pouvez aussi me signaler les éventuels problèmes et erreurs que vous rencontrez pour que je puisse les corriger.
+
 ## Contact & Commentaires
 
-Je suis ouvert aux suggestions et aux améliorations! N'hésitez pas à nous contacter:
+Je suis ouvert aux suggestions et aux améliorations! N'hésitez pas à me contacter:
 
 **Email:** powertrainapp.sup [at] gmail.com
 
@@ -20,20 +27,20 @@ Je suis ouvert aux suggestions et aux améliorations! N'hésitez pas à nous con
 
 *Bientôt disponible sur l'Apple App Store*
 
-## Documentation
+## Manuel d'utilisation
 
 [Documentation](https://iliuta.github.io/rowertrain-docs/)
 
 
 ## Fonctionnalités
 
-- **Mode Libre**: Définissez des objectifs de distance ou de durée d'aviron, choisissez des parcours virtuels, définissez un objectif de rythme, de cadence de coup et commencez votre séance d'aviron
+- **Sortie Libre**: Définissez des objectifs de distance ou de durée d'aviron, choisissez des parcours virtuels, définissez ou non un objectif de rythme et/ou de cadence et commencez votre séance d'aviron
 - **Générateur de Sessions d'Entraînement**: Générez des séances d'aviron structurées à partir de modèles d'entraînement prédéfinis
 - **Suivre les Sessions Sauvegardées**: Choisissez parmi les séances d'aviron intégrées ou les séances personnalisées que vous avez créées
 - **Éditeur de Séances d'Aviron avec Entraînement par Intervalles**: Créez et personnalisez des séances d'entraînement par intervalles. Définissez des objectifs de cadence et de rythme pour chaque intervalle
-- **Intégration du Moniteur de Fréquence Cardiaque**: Connectez des moniteurs de fréquence cardiaque Bluetooth pour suivre votre fréquence cardiaque pendant l'entraînement en aviron
-- **Intégration Strava Aviron**: Synchronisez automatiquement vos séances d'aviron et vos données avec Strava
-- **Parcours d'Aviron Virtuels**: Choisissez parmi une variété de parcours d'aviron prédéfinis et visualisez-les sur Strava comme si vous faisiez de l'aviron en plein air
+- **Intégration du moniteur de fréquence cardiaque**: Connectez des moniteurs de fréquence cardiaque Bluetooth pour suivre votre fréquence cardiaque pendant l'entraînement en aviron
+- **Intégration Strava**: Synchronisez automatiquement vos séances d'aviron et vos données avec Strava
+- **Parcours Virtuels**: Choisissez parmi une variété de parcours d'aviron prédéfinis et visualisez-les sur Strava comme si vous faisiez de l'aviron en plein air.
 
 ## Captures d'Écran
 
