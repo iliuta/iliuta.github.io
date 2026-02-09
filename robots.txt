@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /fr/
+Disallow: 
+
+Sitemap: https://iliuta.github.io/sitemap.xml
