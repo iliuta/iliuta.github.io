@@ -1,3 +1,4 @@
+{% include google-analytics.html %}
 {% include change-language.md %}
 ## À Propos
 
