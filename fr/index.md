@@ -12,7 +12,7 @@ Connectez simplement votre rameur à votre smartphone via Bluetooth et commencez
 
 ## Note sur les séances d'entrainement proposées
 
-Les séances proposées sont données à titre d'exemple. Si vous trouvez qu'elles ne vous sont pas adaptées vous pourrez  créer vos propres séances d'entrainement en utilisant l'éditeur de intégré. Vous pouvez aussi me signaler les éventuels problèmes et erreurs que vous rencontrez pour que je puisse les corriger.
+Les séances proposées sont données à titre d'exemple. Si vous trouvez qu'elles ne vous sont pas adaptées vous pourrez  créer vos propres séances d'entrainement en utilisant l'éditeur intégré. Vous pouvez aussi me signaler les éventuels problèmes et erreurs que vous rencontrez pour que je puisse les corriger.
 
 ## Contact & Commentaires
 
@@ -26,11 +26,13 @@ Je suis ouvert aux suggestions et aux améliorations! N'hésitez pas à me conta
 
 [![Disponible sur Google Play](https://img.shields.io/badge/Get%20it%20on-Google%20Play-blue?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=com.iliuta.ftms)
 
+Je passe beaucoup de mon temps libre pour maintenir cette application et la rendre aussi utile que possible. Elle est cependant disponible gratuitement sur Google Play. Si vous souhaitez soutenir le développement de l'application, vous pouvez faire un don via [Buy Me a Coffee](https://www.buymeacoffee.com/iliuta). Ce n'est pas obligatoire mais les appreciations me font toujours plaisir et me motivent pour continuer. N'hésitez pas à laisser un commentaire sur Google Play pour rendre l'application encore plus visible et populaire.
+
 *Bientôt disponible sur l'Apple App Store*
 
 ## Manuel d'utilisation
 
-[Documentation](https://iliuta.github.io/rowertrain-docs/)
+[Documentation](https://iliuta.github.io/rowertrain-docs/index_fr.html)
 
 
 ## Fonctionnalités
@@ -45,12 +47,7 @@ Je suis ouvert aux suggestions et aux améliorations! N'hésitez pas à me conta
 
 ## Captures d'Écran
 
-![iPhone 1](../screenshots/iphone1.png)
-![iPhone 2](../screenshots/iphone2.png)
-![iPhone 3](../screenshots/iphone3.png)
-![iPhone 4](../screenshots/iphone4.png)
-![iPhone 4](../screenshots/iphone5.png)
-![iPhone 4](../screenshots/iphone6.png)
+{% include screenshots.md %}
 
 ---
 

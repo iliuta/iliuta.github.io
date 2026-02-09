@@ -25,11 +25,13 @@ Ich bin offen für Vorschläge und Verbesserungen! Zögere nicht, mich zu kontak
 
 [![Auf Google Play erhalten](https://img.shields.io/badge/Get%20it%20on-Google%20Play-blue?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=com.iliuta.ftms)
 
+Ich verbringe viel Zeit damit, diese App zu warten und sie so nützlich wie möglich zu machen. Sie ist jedoch kostenlos auf Google Play verfügbar. Wenn Sie die Entwicklung der App unterstützen möchten, können Sie eine Spende über [Buy Me a Coffee](https://www.buymeacoffee.com/iliuta) machen. Es ist nicht obligatorisch, aber die Wertschätzungen machen mir immer Freude und motivieren mich, weiterzumachen. Zögern Sie nicht, einen Kommentar auf Google Play zu hinterlassen, um die App noch sichtbarer und beliebter zu machen.
+
 *Demnächst im Apple App Store erhältlich*
 
 ## Benutzerhandbuch
 
-[Dokumentation](https://iliuta.github.io/rowertrain-docs/)
+[Dokumentation](https://iliuta.github.io/rowertrain-docs/index_de.html)
 
 
 ## Funktionen
@@ -44,12 +46,7 @@ Ich bin offen für Vorschläge und Verbesserungen! Zögere nicht, mich zu kontak
 
 ## Bildschirmfotos
 
-![iPhone 1](../screenshots/iphone1.png)
-![iPhone 2](../screenshots/iphone2.png) 
-![iPhone 3](../screenshots/iphone3.png)
-![iPhone 4](../screenshots/iphone4.png)
-![iPhone 4](../screenshots/iphone5.png)
-![iPhone 4](../screenshots/iphone6.png)
+{% include screenshots.md %}
 
 ---
 
