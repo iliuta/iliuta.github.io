@@ -26,9 +26,11 @@ I'm open to suggestions and improvements! Feel free to reach out:
 
 [![Get it on Google Play](https://img.shields.io/badge/Get%20it%20on-Google%20Play-blue?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=com.iliuta.ftms)
 
-I spend a lot of my free time maintaining this app and making it as useful as possible. It is however available for free on Google Play. If you wish to support the development of the app, you can make a donation via [Buy Me a Coffee](https://www.buymeacoffee.com/iliuta). It's not mandatory but the appreciations always make me happy and motivate me to continue. Don't hesitate to leave a comment on Google Play to make the app even more visible and popular.
+I spend a lot of my free time maintaining this app and making it as useful as possible. It is available for free on Google Play. If you wish to support the development of the app, you can make a donation via [Buy Me a Coffee](https://www.buymeacoffee.com/iliuta). It's not mandatory but the appreciations always make me happy and motivate me to continue. Don't hesitate to leave a comment on Google Play to make the app even more visible and popular.
 
-*Coming soon to the Apple App Store*
+[![Download on the App Store](https://img.shields.io/badge/Download_on_the-App_Store-black?style=for-the-badge&logo=apple)](https://apps.apple.com/app/rowertrain/id6758657773)
+
+The app is also available on the Apple App Store for $4.99.
 
 ## Documentation
 
