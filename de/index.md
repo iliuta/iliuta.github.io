@@ -26,9 +26,11 @@ Ich bin offen für Vorschläge und Verbesserungen! Zögere nicht, mich zu kontak
 
 [![Auf Google Play erhalten](https://img.shields.io/badge/Get%20it%20on-Google%20Play-blue?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=com.iliuta.ftms)
 
-Ich verbringe viel Zeit damit, diese App zu warten und sie so nützlich wie möglich zu machen. Sie ist jedoch kostenlos auf Google Play verfügbar. Wenn Sie die Entwicklung der App unterstützen möchten, können Sie eine Spende über [Buy Me a Coffee](https://www.buymeacoffee.com/iliuta) machen. Es ist nicht obligatorisch, aber die Wertschätzungen machen mir immer Freude und motivieren mich, weiterzumachen. Zögern Sie nicht, einen Kommentar auf Google Play zu hinterlassen, um die App noch sichtbarer und beliebter zu machen.
+Ich verbringe viel Zeit damit, diese App zu warten und sie so nützlich wie möglich zu machen. Sie ist kostenlos auf Google Play verfügbar. Wenn Sie die Entwicklung der App unterstützen möchten, können Sie eine Spende über [Buy Me a Coffee](https://www.buymeacoffee.com/iliuta) machen. Es ist nicht obligatorisch, aber die Wertschätzungen machen mir immer Freude und motivieren mich, weiterzumachen. Zögern Sie nicht, einen Kommentar auf Google Play zu hinterlassen, um die App noch sichtbarer und beliebter zu machen.
 
-*Demnächst im Apple App Store erhältlich*
+[![Im App Store herunterladen](https://img.shields.io/badge/Download_on_the-App_Store-black?style=for-the-badge&logo=apple)](https://apps.apple.com/app/rowertrain/id6758657773)
+
+Die App ist auch im Apple App Store für 4,99€ erhältlich.
 
 ## Benutzerhandbuch
 
