@@ -30,7 +30,7 @@ I spend a lot of my free time maintaining this app and making it as useful as po
 
 [![Download on the App Store](https://img.shields.io/badge/Download_on_the-App_Store-black?style=for-the-badge&logo=apple)](https://apps.apple.com/app/rowertrain/id6758657773)
 
-The app is also available on the Apple App Store for $4.99.
+The app is also available on the Apple App Store. You can download it for free and use the "Free Ride" mode. This will allow you to test the app and see if it works with your rower. However, to use other features, you will need to make an in-app purchase.
 
 ## Documentation
 

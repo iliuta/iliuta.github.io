@@ -31,7 +31,7 @@ Je passe beaucoup de mon temps libre pour maintenir cette application et la rend
 
 [![Télécharger sur l'App Store](https://img.shields.io/badge/Download_on_the-App_Store-black?style=for-the-badge&logo=apple)](https://apps.apple.com/app/rowertrain/id6758657773)
 
-L'application est également disponible sur l'Apple App Store pour 4,99€.
+L'application est également disponible sur l'Apple App Store. Vous pourrez la télécharger gratuitement et utiliser le mode "sortie libre". Cela vous permettra de tester l'application et de voir si elle fonctionne avec votre rameur. Cependant, pour utiliser les autres fonctionnalités, vous devrez effectuer un achat in-app.
 
 ## Manuel d'utilisation
 

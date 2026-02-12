@@ -30,7 +30,7 @@ Ich verbringe viel Zeit damit, diese App zu warten und sie so nützlich wie mög
 
 [![Im App Store herunterladen](https://img.shields.io/badge/Download_on_the-App_Store-black?style=for-the-badge&logo=apple)](https://apps.apple.com/app/rowertrain/id6758657773)
 
-Die App ist auch im Apple App Store für 4,99€ erhältlich.
+Die App ist auch im Apple App Store erhältlich. Sie können sie kostenlos herunterladen und den Modus "Freies Fahren" nutzen. Dies ermöglicht es Ihnen, die App zu testen und zu sehen, ob sie mit Ihrem Ruderer funktioniert. Um andere Funktionen zu nutzen, müssen Sie jedoch einen In-App-Kauf durchführen.
 
 ## Benutzerhandbuch
 
