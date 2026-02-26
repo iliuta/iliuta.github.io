@@ -27,11 +27,12 @@ Je suis ouvert aux suggestions et aux améliorations! N'hésitez pas à me conta
 
 [![Disponible sur Google Play](https://img.shields.io/badge/Get%20it%20on-Google%20Play-blue?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=com.iliuta.ftms)
 
-Je passe beaucoup de mon temps libre pour maintenir cette application et la rendre aussi utile que possible. Elle est disponible gratuitement sur Google Play. Si vous souhaitez soutenir le développement de l'application, vous pouvez faire un don via [Buy Me a Coffee](https://www.buymeacoffee.com/iliuta). Ce n'est pas obligatoire mais les appreciations me font toujours plaisir et me motivent pour continuer. N'hésitez pas à laisser un commentaire sur Google Play pour rendre l'application encore plus visible et populaire.
 
 [![Télécharger sur l'App Store](https://img.shields.io/badge/Download_on_the-App_Store-black?style=for-the-badge&logo=apple)](https://apps.apple.com/app/rowertrain/id6758657773)
 
-L'application est également disponible sur l'Apple App Store. Vous pourrez la télécharger gratuitement et utiliser le mode "sortie libre". Cela vous permettra de tester l'application et de voir si elle fonctionne avec votre rameur. Cependant, pour utiliser les autres fonctionnalités, vous devrez effectuer un achat in-app.
+
+Je passe beaucoup de mon temps libre pour maintenir cette application et la rendre aussi utile que possible. Le mode "sortie libre" est gratuit dans la limite de 30min ou 6km, largement sufissant pour la plupart d'entre vous. Pour débloquer la totalité des fonctionnalités, vous devez effectuer un achat unique. N'hésitez pas à laisser un commentaire sur Google Play pour rendre l'application encore plus visible et populaire.
+
 
 ## Manuel d'utilisation
 
