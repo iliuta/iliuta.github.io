@@ -104,11 +104,6 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 
 **GitHub**: https://github.com/iliuta/ftms  
 
-## Developer Information
-
-RowerTrain is developed by iliuta.  
-This app is open source and available at: https://github.com/iliuta/ftms
-
 ## Consent
 
 By using our App, you consent to the collection, use, and disclosure of your information as described in this Privacy Policy. If you do not agree with this Privacy Policy, please do not use our App.
