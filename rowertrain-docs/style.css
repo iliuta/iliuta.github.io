@@ -25,64 +25,83 @@ body {
 header {
     background: linear-gradient(135deg, #2980B9 0%, #1e5a8e 100%);
     color: white;
-    padding: 40px 30px;
+    padding: 20px 20px;
     text-align: center;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.app-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
 h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 1.8em;
+    margin-bottom: 5px;
     font-weight: 700;
     letter-spacing: 0.5px;
 }
 
 h2 {
     color: #2980B9;
-    font-size: 1.8em;
-    margin: 30px 0 15px 0;
-    padding-bottom: 10px;
-    border-bottom: 3px solid #2980B9;
+    font-size: 1.4em;
+    margin: 20px 0 12px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #2980B9;
 }
 
 h3 {
     color: #34495e;
-    font-size: 1.2em;
-    margin: 20px 0 10px 0;
+    font-size: 1.1em;
+    margin: 15px 0 8px 0;
 }
 
 h4 {
     color: #555;
-    font-size: 1.05em;
-    margin: 15px 0 8px 0;
+    font-size: 0.95em;
+    margin: 12px 0 6px 0;
     font-weight: 600;
 }
 
 main {
-    padding: 40px 30px;
+    padding: 25px 20px;
 }
 
 nav#table-of-contents {
     background: #ecf0f1;
-    padding: 25px;
+    padding: 15px;
     border-radius: 8px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 nav#table-of-contents h2 {
     color: #2980B9;
-    font-size: 1.4em;
-    margin: 0 0 15px 0;
-    padding-bottom: 10px;
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #2980B9;
 }
 
 nav#table-of-contents ul {
     list-style: none;
-    columns: 2;
-    column-gap: 30px;
+    columns: 1;
+    column-gap: 0;
 }
 
 nav#table-of-contents li {
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 nav#table-of-contents a {
@@ -98,18 +117,18 @@ nav#table-of-contents a:hover {
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     scroll-margin-top: 20px;
 }
 
 p {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     text-align: justify;
 }
 
 ul {
-    margin-left: 30px;
-    margin-bottom: 15px;
+    margin-left: 18px;
+    margin-bottom: 12px;
 }
 
 li {
@@ -136,7 +155,80 @@ a:hover {
 footer {
     background: #34495e;
     color: white;
-    padding: 20px 30px;
+    padding: 15px 20px;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.85em;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        border-radius: 8px;
+    }
+
+    header {
+        padding: 15px 15px;
+    }
+
+    .header-content {
+        gap: 10px;
+    }
+
+    .app-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        margin: 15px 0 10px 0;
+    }
+
+    h3 {
+        font-size: 1em;
+        margin: 12px 0 7px 0;
+    }
+
+    main {
+        padding: 15px 15px;
+    }
+
+    nav#table-of-contents {
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+
+    nav#table-of-contents h2 {
+        font-size: 1.1em;
+        margin: 0 0 8px 0;
+    }
+
+    nav#table-of-contents li {
+        margin-bottom: 5px;
+    }
+
+    section {
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 0.95em;
+    }
+
+    ul {
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    li {
+        margin-bottom: 7px;
+    }
 }
