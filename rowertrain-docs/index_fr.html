@@ -5,38 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guide de l'utilisateur de l'application RowerTrain</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px auto;
-            max-width: 800px;
-            padding: 20px;
-        }
-
-        h1,
-        h2 {
-            color: #2980B9;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        section {
-            margin-bottom: 30px;
-        }
-
-        ul {
-            margin-left: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Guide de l'utilisateur de l'application RowerTrain</h1>
+    <div class="container">
+        <header>
+            <h1>🚣 RowerTrain App</h1>
+            <p>Guide utilisateur &amp; Documentation</p>
+        </header>
+        <main>
 
-    <section id="support">
+            <nav id="table-of-contents">
+                <h2>Table des matières</h2>
+                <ul>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#settings">Paramètres</a></li>
+                    <li><a href="#scan">Recherche d'appareils</a></li>
+                    <li><a href="#start-training">Sessions d'entraînement</a></li>
+                    <li><a href="#edit-training">Modification des sessions</a></li>
+                    <li><a href="#fit-files">Activités non synchronisées</a></li>
+                    <li><a href="#developer-mode">Mode développeur</a></li>
+                    <li><a href="#credits">Crédits</a></li>
+                </ul>
+            </nav>
+
+        <section id="support">
         <h2>Support</h2>
         <p>Envoyez vos commentaires et rapports de bugs par <a href="mailto:powertrainapp.sup@gmail.com">email</a>.</p>
         <p>Ou vous pouvez signaler un problème sur <a href="https://github.com/iliuta/iliuta.github.io/issues">github</a>.</p>
@@ -204,6 +198,17 @@
         <p>Voici les commandes qui peuvent être envoyées à la machine. Parmi elles, vous pourriez pouvoir définir le "niveau de résistance"
             ou la cible de puissance (mode ERG). Lorsque vous voulez utiliser l'une de celles-ci, envoyez toujours d'abord la commande de contrôle de demande.</p>
     </section>
+    <section id="credits">
+        <h2>Crédits</h2>
+        <p>Ce logiciel utilise la bibliothèque universal_ble<br>
+        Copyright (c) 2024, Navideck Labs OÜ<br>
+        Tous droits réservés.</p>
+        </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 RowerTrain App. Tous droits réservés.</p>
+        </footer>
+    </div>
 </body>
 
 </html>

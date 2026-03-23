@@ -5,38 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RowerTrain-App-Benutzerhandbuch</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px auto;
-            max-width: 800px;
-            padding: 20px;
-        }
-
-        h1,
-        h2 {
-            color: #2980B9;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        section {
-            margin-bottom: 30px;
-        }
-
-        ul {
-            margin-left: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>RowerTrain-App-Benutzerhandbuch</h1>
+    <div class="container">
+        <header>
+            <h1>🚣 RowerTrain App</h1>
+            <p>Benutzerhandbuch &amp; Dokumentation</p>
+        </header>
+        <main>
 
-    <section id="support">
+            <nav id="table-of-contents">
+                <h2>Inhaltsverzeichnis</h2>
+                <ul>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#settings">Einstellungen</a></li>
+                    <li><a href="#scan">Geräte scannen</a></li>
+                    <li><a href="#start-training">Trainingseinheiten</a></li>
+                    <li><a href="#edit-training">Bearbeiten von Trainingseinheiten</a></li>
+                    <li><a href="#fit-files">Unsynchronisierte Aktivitäten</a></li>
+                    <li><a href="#developer-mode">Entwicklermodus</a></li>
+                    <li><a href="#credits">Danksagungen</a></li>
+                </ul>
+            </nav>
+
+        <section id="support">
         <h2>Support</h2>
         <p>Senden Sie Ihr Feedback und Bugmeldungen per <a href="mailto:powertrainapp.sup@gmail.com">E-Mail</a>.</p>
         <p>Oder Sie können ein Problem auf <a href="https://github.com/iliuta/iliuta.github.io/issues">github</a> melden.</p>
@@ -208,6 +202,17 @@
         <p>Hier sind die Befehle, die an die Maschine gesendet werden können. Unter ihnen könnten Sie den "Widerstandslevel" setzen
             oder das Leistungsziel (ERG-Modus). Wenn Sie eines davon verwenden möchten, senden Sie immer zuerst den Anforderungskontrollbefehl.</p>
     </section>
+        <section id="credits">
+            <h2>Danksagungen</h2>
+            <p>Diese Software verwendet die universal_ble-Bibliothek<br>
+            Copyright (c) 2024, Navideck Labs OÜ<br>
+            Alle Rechte vorbehalten.</p>
+        </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 RowerTrain App. Alle Rechte vorbehalten.</p>
+        </footer>
+    </div>
 </body>
 
 </html>
