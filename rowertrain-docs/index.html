@@ -4,39 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FTMS App User Guide</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px auto;
-            max-width: 800px;
-            padding: 20px;
-        }
-
-        h1,
-        h2 {
-            color: #2980B9;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        section {
-            margin-bottom: 30px;
-        }
-
-        ul {
-            margin-left: 20px;
-        }
-    </style>
+    <title>RowerTrain App User Guide</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>RowerTrain App User Guide</h1>
+    <div class="container">
+        <header>
+            <h1>🚣 RowerTrain App</h1>
+            <p>User Guide & Documentation</p>
+        </header>
+        <main>
 
-    <section id="support">
+            <nav id="table-of-contents">
+                <h2>Table of Contents</h2>
+                <ul>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#settings">Settings Page</a></li>
+                    <li><a href="#scan">Scan Page</a></li>
+                    <li><a href="#start-training">Training Sessions</a></li>
+                    <li><a href="#edit-training">Editing Training Sessions</a></li>
+                    <li><a href="#fit-files">Unsynchronized Activities</a></li>
+                    <li><a href="#developer-mode">Developer Mode</a></li>
+                    <li><a href="#credits">Credits</a></li>
+                </ul>
+            </nav>
+
+        <section id="support">
         <h2>Support</h2>
         <p>Send your feedback and bug reports by <a href="mailto:powertrainapp.sup@gmail.com">email</a>.</p>
         <p>Or you can rise <a href="https://github.com/iliuta/iliuta.github.io/issues">a github issue</a>.</p>
@@ -211,6 +205,17 @@
             level" or the power target (ERG mode). When you want to use one of those, always send the request control
             command first.</p>
     </section>
+    <section id="credits">
+        <h2>Credits</h2>
+        <p>This software uses universal_ble library<br>
+        Copyright (c) 2024, Navideck Labs OÜ<br>
+        All rights reserved.</p>
+        </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 RowerTrain App. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 
 </html>
