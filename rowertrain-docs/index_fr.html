@@ -50,6 +50,7 @@
             <li><strong>FTP Rameur</strong> : exprimé en min/500m.</li>
             <li><strong>Thème</strong> : clair, sombre, système</li>
             <li><strong>Conserver les fichiers FIT après envoi</strong> : si l'option n'est pas cochée et que vous êtes connectés à Strava, les fichiers d'entrainement ne seront pas conservés en local.</li>
+            <li><strong>Masquer la carte et le parcours GPS</strong> : si l'option est cochée, la carte et le parcours GPS ne seront pas affichés pendant les sessions d'entraînement ni conservés après.</li>
             <li><strong>Pause automatique</strong> : Si l'option est activée, l'application mettra automatiquement en pause votre session d'entraînement en cas d'inactivité. Vous pouvez ajuster le délai d'inactivité ainsi que le délai de reprise. 
             Si votre rameur fournit des données d'allure trop basses, vous pouvez augmenter le délai d'inactivité pour éviter les pauses indésirables. De même, si vous souhaitez que la session reprenne plus rapidement après une pause, vous pouvez réduire le délai de reprise. Vous pouvez
             également désactiver complètement la pause automatique si vous préférez gérer manuellement les pauses de votre session d'entraînement.
@@ -87,7 +88,7 @@
         <ul>
             <li>Assurez-vous que votre rameur et vos capteurs sont connectés.</li>
             <li>Appuyez sur le bouton "Ouvrir" près du nom de la machine connectée.</li>
-            <li>En haut, vous verrez une liste d'itinéraires prédéfinis. Vous pouvez en sélectionner un optionnellement. Si vous ne le faites pas, l'
+            <li>En haut, vous verrez une liste d'itinéraires prédéfinis, si l'option est activée. Vous pouvez en sélectionner un itinéraire. Si vous ne le faites pas, l'
                 application en choisira un au hasard.
             </li>
             <li>Vous pouvez choisir de démarrer une "Course Olympique", "Sortie libre", générer une session d'entraînement ou sélectionner une "Session d'entraînement"
@@ -130,7 +131,7 @@
                 </ul>
         <h3>Déroulement d'une session</h3>
         <p>
-            En haut, vous avez le titre de la session et quelques contrôles permettant de couper le son du métronome, le son des alertes,
+            En haut, vous avez le titre de la session, le métronome et quelques contrôles permettant de couper le son du métronome, le son des alertes,
             de mettre en pause/démarrer et arrêter la session.</p>
         <p>
             Une fois démarrée, vous verrez en haut une représentation visuelle des intervalles et le temps écoulé actuel et
@@ -140,7 +141,11 @@
         </p>
         <p>La partie principale est remplie avec les données réelles provenant de la machine de fitness et des capteurs. Les valeurs cibles, telles que
             définies dans la session d'entraînement, changent de couleur en rouge lorsqu'elles ne sont pas dans la plage souhaitée.</p>
-        <p>Il y a aussi une carte superposée avec votre position actuelle et l'itinéraire.</p>
+        <p>Si votre machine ne fournit pas certaines données, un message indiquant "Aucune donnée" sera affiché dans le champ correspondant.</p>
+        <p>Si votre machine ne fournit pas les données de résistance et que l'intervalle en cours comporte une cible de résistance, 
+            alors la resistance cible exprimée en pourcentage est affichée dans le champ correspondant, 
+            permettant de régler manuellement la résistance du rameur.</p>
+        <p>Si l'option est activée, il y a aussi une carte superposée avec votre position actuelle et l'itinéraire.</p>
         <p>Lorsque l'intervalle actuel est sur le point de se terminer, un bip est joué pour vous alerter.</p>
 
         <h4>Démarrage d'une session</h4>

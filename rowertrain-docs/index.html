@@ -50,6 +50,7 @@
             <li><strong>Rowing FTP</strong>: expressed in min/500m.</li>
             <li><strong>Theme</strong>: light, dark, system</li>
             <li><strong>Keep FIT files after upload</strong>: if not checked and you're connected to Strava, workout files will not be kept locally.</li>
+            <li><strong>Hide map and GPS route</strong>: if enabled, the map and GPS route will not be displayed during training sessions nor kept afterwards.</li>
             <li><strong>Auto-Pause</strong>: If enabled, the application will automatically pause your training session in case of inactivity. You can adjust the inactivity delay as well as the resume delay. 
             If your rowing machine provides too low pace data, you can increase the inactivity delay to avoid unwanted pauses. Similarly, if you want the session to resume faster after a pause, you can reduce the resume delay. You can
             also completely disable auto-pause if you prefer to manually manage your session pauses.
@@ -89,7 +90,7 @@
         <ul>
             <li>Ensure your rowing machine and sensors are connected.</li>
             <li>Tap the "Open" button near the connected machine name.</li>
-            <li>On top you'll see a list of predefined routes. Optionally you may select one of them. If you don't, the
+            <li>On top you'll see a list of predefined routes, if enabled. You may select one of them. If you don't, the
                 application will pick up one randomly.
             </li>
             <li>You may choose to start a "Paris 2024 Olympics race", "Free ride", generate a training session or select a saved "Training session"
@@ -130,7 +131,7 @@
                 </ul>
         <h3>Performing a session</h3>
         <p>
-            On top you have the session title and some controls allowing to cut the metronome's sound, the alerts sound,
+            On top you have the session title, the metronome and some controls allowing to cut the metronome's sound, the alerts sound,
             to pause/start and stop the session.</p>
         <p>
             Once started, you'll see at the top a visual representation of the intervals and the current elapsed and
@@ -140,7 +141,11 @@
         </p>
         <p>The main part is filled with actual data coming from the fitness machine and sensors. The target values, as
             defined in the training session, change the color to red when not in the desired range.</p>
-        <p>Also, there is an overlay map with your current position and the route.</p>
+        <p>If your machine does not provide certain data, a message indicating "No data" will be displayed in the corresponding field.</p>
+        <p>If your machine does not provide resistance data and the current interval has a resistance target, 
+            then the target resistance expressed as a percentage is displayed in the corresponding field, 
+            allowing you to manually adjust the rower's resistance.</p>
+        <p>If enabled, there is also an overlay map with your current position and the route.</p>
         <p>When the current interval is about to end, a beep is played to alert you.</p>
 
         <h4>Starting a session</h4>

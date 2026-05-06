@@ -50,6 +50,7 @@
             <li><strong>Ruder-FTP</strong>: ausgedrückt in min/500m.</li>
             <li><strong>Theme</strong>: hell, dunkel, system</li>
             <li><strong>FIT-Dateien nach dem Upload behalten</strong>: wenn nicht aktiviert und Sie mit Strava verbunden sind, werden Trainingsdateien nicht lokal gespeichert.</li>
+            <li><strong>Karte und GPS-Route ausblenden</strong>: wenn aktiviert, werden die Karte und die GPS-Route während der Trainingseinheiten nicht angezeigt und danach nicht gespeichert.</li>
             <li><strong>Auto-Pause</strong>: Wenn aktiviert, pausiert die Anwendung Ihre Trainingseinheit automatisch bei Inaktivität. Sie können die Inaktivitätsverzögerung sowie die Wiederaufnahmeverzögerung anpassen. 
             Wenn Ihr Rudergerät zu niedrige Pace-Daten liefert, können Sie die Inaktivitätsverzögerung erhöhen, um unerwünschte Pausen zu vermeiden. Ebenso können Sie die Wiederaufnahmeverzögerung verringern, wenn Sie möchten, dass die Sitzung schneller nach einer Pause fortgesetzt wird. Sie können
             auch die Auto-Pause vollständig deaktivieren, wenn Sie Ihre Einheitspausen lieber manuell verwalten möchten.
@@ -87,7 +88,7 @@
         <ul>
             <li>Stellen Sie sicher, dass Ihr Rudergerät und Sensoren verbunden sind.</li>
             <li>Tippen Sie auf die Schaltfläche "Öffnen" neben dem Namen der verbundenen Maschine.</li>
-            <li>Oben sehen Sie eine Liste vordefinierter Routen. Optional können Sie eine davon auswählen. Wenn Sie das nicht tun, wählt die
+            <li>Oben sehen Sie eine Liste vordefinierter Routen, falls aktiviert. Sie können eine davon auswählen. Wenn Sie das nicht tun, wählt die
                 Anwendung zufällig eine aus.
             </li>
             <li>Sie können wählen, eine "Paris 2024 Olympisches Rennen" zu starten, eine "Freie Fahrt" zu starten, eine Trainingseinheit zu generieren oder eine gespeicherte "Trainingseinheit"
@@ -129,7 +130,7 @@
                 </ul>
         <h3>Eine Einheit durchführen</h3>
         <p>
-            Oben haben Sie den Einheitstitel und einige Steuerungen, die es ermöglichen, den Metronom-Sound, den Alert-Sound zu schneiden,
+            Oben haben Sie den Einheitstitel, das Metronom und einige Steuerungen, die es ermöglichen, den Metronom-Sound, den Alert-Sound zu schneiden,
             die Einheit zu pausieren/starten und zu stoppen.</p>
         <p>
             Sobald gestartet, sehen Sie oben eine visuelle Darstellung der Intervalle und die aktuelle verstrichene und
@@ -139,7 +140,11 @@
         </p>
         <p>Der Hauptteil ist mit tatsächlichen Daten von der Fitnessmaschine und Sensoren gefüllt. Die Zielwerte, wie
             in der Trainingseinheit definiert, ändern die Farbe zu Rot, wenn sie nicht im gewünschten Bereich liegen.</p>
-        <p>Außerdem gibt es eine Overlay-Karte mit Ihrer aktuellen Position und der Route.</p>
+        <p>Wenn Ihr Gerät bestimmte Daten nicht liefert, wird im entsprechenden Feld die Meldung "Keine Daten" angezeigt.</p>
+        <p>Wenn Ihr Gerät keine Widerstandsdaten liefert und das aktuelle Intervall ein Widerstandsziel hat, 
+            wird der Zielwiderstand in Prozent im entsprechenden Feld angezeigt, 
+            sodass Sie den Widerstand des Rudergeräts manuell anpassen können.</p>
+        <p>Wenn aktiviert, gibt es außerdem eine Overlay-Karte mit Ihrer aktuellen Position und der Route.</p>
         <p>Wenn das aktuelle Intervall kurz vor dem Ende steht, wird ein Piepton abgespielt, um Sie zu alarmieren.</p>
 
         <h4>Eine Einheit starten</h4>
