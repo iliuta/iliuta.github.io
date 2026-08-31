@@ -50,6 +50,7 @@
             <li><strong>FTP Rameur</strong> : exprimé en min/500m.</li>
             <li><strong>Thème</strong> : clair, sombre, système</li>
             <li><strong>Sync. Santé</strong> : permet à l'application de synchroniser vos données d'entraînement avec des plateformes de santé comme Google Santé ou Apple Health. Vous serez invité à accepter les autorisations nécessaires.</li>
+            <li><strong>Se connecter à Strava</strong>: Connectez votre compte Strava pour synchroniser vos entraînements. Une fois connecté, vos sessions d'entraînement, une fois terminées, peuvent être téléchargées sur Strava.</li>
             <li><strong>Conserver les fichiers FIT après envoi</strong> : si l'option n'est pas cochée et que vous êtes connectés à Strava, les fichiers d'entrainement ne seront pas conservés en local.</li>
             <li><strong>Masquer la carte et le parcours GPS</strong> : si l'option est cochée, la carte et le parcours GPS ne seront pas affichés pendant les sessions d'entraînement ni conservés après.</li>
             <li><strong>Sauvegarde et restauration des sessions d'entraînement</strong> Vous pouvez sauvegarder/restaurer vos sessions d'entrainement personnalisées sur le support de votre choix (Google Drive, Dropbox, Apple iCloud, etc, en fonction de ce qui est disponible sur votre téléphone). 
@@ -68,9 +69,7 @@
 
     <section id="scan">
         <h2>Recherche d'appareils</h2>
-        <p>La page de scan liste les appareils Bluetooth disponibles, comme les machines de fitness et les capteurs. Les appareils suivants
-            sont
-            pris en charge : les rameurs compatibles FTMS et les moniteurs de fréquence cardiaque</p>
+        <p>La page de scan liste les appareils Bluetooth disponibles, comme les machines de fitness et les capteurs.</p>
         <h3>Recherche d'appareils</h3>
         <ul>
             <li>Appuyez sur le bouton "Scanner les appareils" pour rechercher les machines de fitness et capteurs Bluetooth à proximité.
@@ -79,12 +78,38 @@
             </li>
             <li>Appuyez sur le bouton "Connecter" près de l'appareil pour l'associer à votre téléphone.</li>
         </ul>
-        <h3>Se connecter à Strava</h3>
+
+        <h3>Machines de fitness</h3>
+        <p>RowerTrain prend en charge les rameurs standard compatibles FTMS.
+        Cependant, le niveau de compatibilité dépend du fabricant
+        et du modèle du rameur. Certaines machines peuvent ne pas prendre en charge toutes les fonctionnalités, comme le réglage de la résistance.
+        </p>
+        <p>
+            Cela étant dit, RowerTrain fonctionnerait avec les machines des fabricants suivants :
+        </p>
         <ul>
-            <li>Connectez votre compte Strava pour synchroniser vos entraînements.</li>
-            <li>Appuyez sur le bouton de connexion Strava pour authentifier et lier votre compte.</li>
-            <li>Une fois connecté, vos sessions d'entraînement, une fois terminées, peuvent être téléchargées sur Strava.</li>
+                <li>Decathlon (Domyos) Woodrower, 900 et Initial 100. Il n'est pas compatible avec le modèle 500B, qui n'est pas compatible FTMS.</li>
+                <li>Merach : R11, R14, R15, R28, Q3, CRYDN, R26, 950R</li>
+                <li>Joroto</li>
+                <li>Yosuda</li>
+                <li>Et probablement d'autres</li>
         </ul>
+
+        <p>Comment savoir si votre machine de fitness est compatible avant d'acheter la version complète de RowerTrain ?</p>
+        <p>La réponse est assez simple :
+                Connectez votre machine à RowerTrain et effectuez une sortie libre ou la course olympique. La version gratuite dispose
+                de la plupart des fonctionnalités disponibles, à l'exception du déroulement des sessions d'entraînement intégrées ou personnalisées.
+                Si votre machine est compatible, vous devriez pouvoir voir ses données à l'écran et l'application devrait réagir à vos coups de rame.
+                Dans le cas contraire, votre machine n'est probablement pas compatible.
+        </p>
+
+        <h3>Capteurs</h3>
+        <p>RowerTrain prend en charge les moniteurs de fréquence cardiaque Bluetooth standard, comme les ceintures pectorales et les moniteurs optiques portés au poignet.</p>
+        <p>Vous pouvez également utiliser votre montre de sport (comme Garmin) configurée pour diffuser votre fréquence cardiaque.</p>
+        <p>Certaines montres Android, comme les montres Pixel, permettent également de diffuser la fréquence cardiaque.</p>
+        <p>iOS uniquement : en plus des moniteurs de fréquence cardiaque standard, si vous possédez une Apple Watch jumelée, RowerTrain fournit une application compagnon que vous pouvez utiliser comme moniteur de fréquence cardiaque.
+            La montre sera répertoriée comme capteur dans RowerTrain. Vous devrez démarrer l'application "RowerTrain Watch" directement sur la montre.
+        </p>
     </section>
 
     <section id="start-training">
