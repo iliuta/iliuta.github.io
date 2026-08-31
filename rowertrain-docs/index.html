@@ -50,6 +50,7 @@
             <li><strong>Rowing FTP</strong>: expressed in min/500m.</li>
             <li><strong>Theme</strong>: light, dark, system</li>
             <li><strong>Health Sync</strong>: allows the app to sync your workout data with health platforms like Google Health connect or Apple Health. You will be asked to accept the necessary permissions.</li>
+            <li><strong>Strava Connection</strong>: Connect your Strava account to sync your workouts. Once connected, your training sessions, when completed, can be uploaded to Strava.</li>
             <li><strong>Keep FIT files after upload</strong>: if not checked and you're connected to Strava, workout files will not be kept locally.</li>
             <li><strong>Hide map and GPS route</strong>: if enabled, the map and GPS route will not be displayed during training sessions nor kept afterwards.</li>
             <li><strong>Backup and restoration of training sessions</strong> You can backup/restore your custom training sessions to the storage of your choice (Google Drive, Dropbox, Apple iCloud, etc., depending on what is available on your phone). 
@@ -68,9 +69,7 @@
 
     <section id="scan">
         <h2>Scan Page</h2>
-        <p>The scan page lists the available Bluetooth devices, like fitness machines and sensors. The following devices
-            are
-            supported: FTMS-compatible rowing machines and heart rate monitors</p>
+        <p>The scan page lists the available Bluetooth devices, like fitness machines and sensors.</p>
         <h3>Scanning for Devices</h3>
         <ul>
             <li>Tap the "Scan for devices" button to search for nearby Bluetooth-enabled fitness machines and sensors.
@@ -81,12 +80,37 @@
             </li>
             <li>Tap the "Connect" button near the device to pair it with your phone.</li>
         </ul>
-        <h3>Strava Connection</h3>
+        <h3>Fitness machines</h3>
+        <p>RowerTrain supports standard FTMS-compatible rowing machines. 
+        However, the level of compatibility depends on the manufacturer 
+        and model of the rowing machine. Some machines may not support all features, such as resistance adjustment.
+        </p>
+        <p>
+            That being said, RowerTrain is reportedly working with the machines from the following manufacturers:
+        </p>
         <ul>
-            <li>Connect your Strava account to sync your workouts.</li>
-            <li>Tap the Strava connection button to authenticate and link your account.</li>
-            <li>Once connected, your training sessions, when completed, can be uploaded to Strava.</li>
+                <li>Decathlon (Domyos) Woodrower, 900 and Initial 100. It is not compatible with the 500B model, which is not FTMS-compatible.</li>
+                <li>Merach: R11, R14, R15, R28, Q3, CRYDN, R26, 950R</li>
+                <li>Joroto</li>
+                <li>Yosuda</li>
+                <li>And probably others</li>
         </ul>
+
+        <p>How to know your fitness machine is compatible before buying the full RowerTrain version? </p>
+        <p> The answer is quite simple:
+                Connect your machine to RowerTrain and perform a free ride or the Olympics race. The free version has
+                most of the features available except for running built in and custom training sessions.
+                If your machine is compatible, you should be able to see the data from the machine on the screen and the application should respond to your rowing. 
+                If not, then your machine is probably not compatible.
+        </p>
+    
+        <h3>Sensors</h3>
+        <p>RowerTrain supports standard bluetooth heart rate monitors, like chest strap monitors and wrist-based optical monitors. </p>
+        <p>You can also use your sports watch (like Garmin) configured to broadcast your heart rate. Some Android Watches, like Pixel watches, allow broadcasting heart rate as well.</p>
+        <p>iOS only: In addition to standard heart rate monitors, if you have a 
+            paired Apple Watch, RowerTrain provides a companion application that you can use as a heart rate monitor. 
+            The watch will be listed as a sensor on RowerTrain. You'll need to start the "RowerTrain Watch" app directly on the watch.</p>
+        </p>
     </section>
 
     <section id="start-training">

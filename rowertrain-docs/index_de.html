@@ -50,6 +50,7 @@
             <li><strong>Ruder-FTP</strong>: ausgedrückt in min/500m.</li>
             <li><strong>Theme</strong>: hell, dunkel, system</li>
             <li><strong>Health-Sync</strong>: ermöglicht der App, Ihre Trainingsdaten mit Gesundheitsplattformen wie Google Health Connect oder Apple Health zu synchronisieren. Sie werden aufgefordert, die erforderlichen Berechtigungen zu akzeptieren.</li>
+            <li><strong>Strava verbinden</strong>: Verbinden Sie Ihr Strava-Konto, um Ihre Workouts zu synchronisieren. Sobald verbunden, können Ihre Trainingseinheiten, sobald sie abgeschlossen sind, auf Strava hochgeladen werden.</li>
             <li><strong>FIT-Dateien nach dem Upload behalten</strong>: wenn nicht aktiviert und Sie mit Strava verbunden sind, werden Trainingsdateien nicht lokal gespeichert.</li>
             <li><strong>Karte und GPS-Route ausblenden</strong>: wenn aktiviert, werden die Karte und die GPS-Route während der Trainingseinheiten nicht angezeigt und danach nicht gespeichert.</li>
             <li><strong>Sicherung und Wiederherstellung von Trainingseinheiten</strong> Sie können Ihre benutzerdefinierten Trainingseinheiten auf dem Speichermedium Ihrer Wahl (Google Drive, Dropbox, Apple iCloud usw., je nachdem, was auf Ihrem Telefon verfügbar ist) sichern/wiederherstellen. 
@@ -68,9 +69,7 @@
 
     <section id="scan">
         <h2>Geräte scannen</h2>
-        <p>Die Scan-Seite listet die verfügbaren Bluetooth-Geräte auf, wie Fitnessmaschinen und Sensoren. Die folgenden Geräte
-            werden
-            unterstützt: FTMS-kompatible Rudergeräte und Herzfrequenzmonitore</p>
+        <p>Die Scan-Seite listet die verfügbaren Bluetooth-Geräte auf, wie Fitnessmaschinen und Sensoren.</p>
         <h3>Scannen nach Geräten</h3>
         <ul>
             <li>Tippen Sie auf die Schaltfläche "Geräte scannen", um nach nahegelegenen Bluetooth-fähigen Fitnessmaschinen und Sensoren zu suchen.
@@ -79,12 +78,38 @@
             </li>
             <li>Tippen Sie auf die Schaltfläche "Verbinden" neben dem Gerät, um es mit Ihrem Telefon zu koppeln.</li>
         </ul>
-        <h3>Mit Strava verbinden</h3>
+
+        <h3>Fitnessmaschinen</h3>
+        <p>RowerTrain unterstützt standardmäßige FTMS-kompatible Rudergeräte.
+        Der Grad der Kompatibilität hängt jedoch vom Hersteller
+        und Modell des Rudergeräts ab. Einige Geräte unterstützen möglicherweise nicht alle Funktionen, wie zum Beispiel die Widerstandseinstellung.
+        </p>
+        <p>
+            Dennoch funktioniert RowerTrain Berichten zufolge mit Geräten der folgenden Hersteller:
+        </p>
         <ul>
-            <li>Verbinden Sie Ihr Strava-Konto, um Ihre Workouts zu synchronisieren.</li>
-            <li>Tippen Sie auf die Strava-Verbindungsschaltfläche, um Ihr Konto zu authentifizieren und zu verknüpfen.</li>
-            <li>Sobald verbunden, können Ihre Trainingseinheiten, sobald sie abgeschlossen sind, auf Strava hochgeladen werden.</li>
+                <li>Decathlon (Domyos) Woodrower, 900 und Initial 100. Das Modell 500B ist nicht kompatibel, da es nicht FTMS-kompatibel ist.</li>
+                <li>Merach: R11, R14, R15, R28, Q3, CRYDN, R26, 950R</li>
+                <li>Joroto</li>
+                <li>Yosuda</li>
+                <li>Und wahrscheinlich weitere</li>
         </ul>
+
+        <p>Wie können Sie vor dem Kauf der vollständigen RowerTrain-Version feststellen, ob Ihr Fitnessgerät kompatibel ist?</p>
+        <p>Die Antwort ist ganz einfach:
+                Verbinden Sie Ihr Gerät mit RowerTrain und führen Sie eine freie Fahrt oder das olympische Rennen durch. Die kostenlose Version bietet
+                die meisten verfügbaren Funktionen, mit Ausnahme des integrierten Laufens und benutzerdefinierter Trainingseinheiten.
+                Wenn Ihr Gerät kompatibel ist, sollten Sie die Gerätedaten auf dem Bildschirm sehen können und die Anwendung sollte auf Ihr Rudern reagieren.
+                Wenn nicht, ist Ihr Gerät wahrscheinlich nicht kompatibel.
+        </p>
+
+        <h3>Sensoren</h3>
+        <p>RowerTrain unterstützt standardmäßige Bluetooth-Herzfrequenzmonitore, wie Brustgurte und optische, am Handgelenk getragene Monitore.</p>
+        <p>Sie können auch Ihre Sportuhr (wie Garmin) verwenden, die für die Übertragung Ihrer Herzfrequenz konfiguriert ist.</p>
+        <p>Einige Android-Smartwatches, wie die Pixel Watch, ermöglichen ebenfalls die Übertragung der Herzfrequenz.</p>
+        <p>Nur iOS: Zusätzlich zu standardmäßigen Herzfrequenzmonitoren bietet RowerTrain, wenn Sie eine gekoppelte Apple Watch besitzen, eine Begleit-App, die Sie als Herzfrequenzmonitor verwenden können.
+            Die Uhr wird in RowerTrain als Sensor aufgeführt. Sie müssen die App "RowerTrain Watch" direkt auf der Uhr starten.
+        </p>
     </section>
 
     <section id="start-training">
