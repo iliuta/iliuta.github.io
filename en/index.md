@@ -4,19 +4,33 @@
 
 **RowerTrain** is an app for connected rowers, designed to enhance your training experience and boost your rowing performance.
 
-I originally wrote this app for Decathlon Domyos rowers. It turned out that Decathlon decided to stop maintaining the Domyos eConnected app and direct users to the Kinomap app. I didn't find that app very useful, so I decided to create my own.
+RowerTrain was originally created for Decathlon Domyos rowers. After Decathlon stopped maintaining the Domyos eConnected app and began directing users to the Kinomap app, RowerTrain was created as an alternative.
 
-RowerTrain works with a wide range of rowing ergometers, including popular models like Domyos 500, 900, Woodrower as well as other brands like Concept2, Christopeit, Merach, and others. If your rower doesn't work with RowerTrain, please let me know. Sometimes rowers, especially entry-level models, don't fully comply with the FTMS protocol. However, thanks to user feedback, I've been able to fix some issues and improve compatibility.
+RowerTrain works with a wide range of rowing ergometers, including popular models like Domyos 500, 900, Woodrower as well as other brands like Concept2, Christopeit, Merach, and others. If your rower doesn't work with RowerTrain, please report the issue. Sometimes rowers, especially entry-level models, don't fully comply with the FTMS protocol. However, user feedback has helped resolve issues and improve compatibility.
 
 Simply connect your rowing machine to your smartphone via Bluetooth and start your rowing workout session. Your rower must support the Bluetooth FTMS (Fitness Machine Service) protocol to work with RowerTrain.
 
+## Compatibility
+
+RowerTrain supports standard FTMS-compatible rowing machines. Compatibility depends on the manufacturer and model, and some machines may not support every feature, such as resistance adjustment.
+
+RowerTrain is known to work with machines from the following manufacturers and models:
+
+- **Decathlon (Domyos)**: Woodrower, 900, and Initial 100. The 500B model is not compatible because it does not support FTMS.
+- **Merach**: R11, R14, R15, R28, Q3, CRYDN, R26, and 950R
+- **Joroto**
+- **Yosuda**
+- And probably others
+
+To check compatibility before purchasing the full version, connect the machine to RowerTrain and try Free Ride or the Olympics race. If the machine is compatible, its data should appear on screen and the app should respond to your rowing.
+
 ## Note on the Proposed Training Sessions
 
-The provided training sessions are given as examples. If you find they don't suit you, you can create your own training sessions using the built-in editor. You can also report any issues or errors you encounter so I can fix them.
+The provided training sessions are given as examples. If you find they don't suit you, you can create your own training sessions using the built-in editor. You can also report any issues or errors for review and correction.
 
 ## Contact & Feedback
 
-I'm open to suggestions and improvements! Feel free to reach out:
+Suggestions and improvement ideas are welcome. Feel free to reach out:
 
 **Email:** support [at] rowertrain.com
 
@@ -28,7 +42,7 @@ I'm open to suggestions and improvements! Feel free to reach out:
 
 [![Download on the App Store](https://img.shields.io/badge/Download_on_the-App_Store-black?style=for-the-badge&logo=apple)](https://apps.apple.com/app/rowertrain/id6758657773)
 
-I spend a lot of my free time maintaining this app and making it as useful as possible. The "Free Ride" mode is available for free within the limit of 30 minutes or 6km, which is more than enough for most of you. To unlock all features, you will need to make a single in-app purchase. Don't hesitate to leave a comment on Google Play to make the app even more visible and popular.
+RowerTrain is actively maintained to make it as useful as possible. The "Free Ride" mode is available for free within the limit of 30 minutes or 6km, which is more than enough for most users. To unlock all features, a single in-app purchase is required. Comments on Google Play help make the app even more visible and popular.
 
 ## Documentation
 

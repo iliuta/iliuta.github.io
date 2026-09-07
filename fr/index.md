@@ -11,20 +11,33 @@ description: RowerTrain est une application d'aviron Bluetooth FTMS pour l'entra
 
 **RowerTrain** est une application pour rameurs connectés, conçue afin d'améliorer votre expérience d'entraînement et d'augmenter vos performances.
 
-J'ai écrit initialement cette application pour les rameurs Decathlon Domyos. Il se trouve que chez Decathlon ils ont
-décidé de ne plus maintenir l'application Domyos eConnected et de diriger les utilisateurs vers l'application Kinomap. Je n'ai pas trouvé cette application très utile, donc j'ai décidé de créer la mienne.
+RowerTrain a été initialement conçue pour les rameurs Decathlon Domyos. Après l'arrêt de la maintenance de l'application Domyos eConnected par Decathlon et la redirection des utilisateurs vers l'application Kinomap, RowerTrain a été créée comme une alternative.
 
-RowerTrain fonctionne avec une large gamme d'ergomètres d'aviron, y compris les modèles populaires, comme Domyos 500, 900, Woodrower mais aussi d'autres marques, comme Concept2, Christopeit, Merach, etc. Si toutefois votre rameur ne marche pas avec RowerTrain, n'hésitez pas à me le faire savoir. Parfois les rameurs, surtout les modèles d'entrée de gamme, ne respectent pas en totalité le protocole FTMS. Mais, grâce au retours des utilisateurs, j'ai pu corriger quelques problèmes et augmenter ainsi la compatibilité.
+RowerTrain fonctionne avec une large gamme d'ergomètres d'aviron, y compris les modèles populaires, comme Domyos 500, 900, Woodrower mais aussi d'autres marques, comme Concept2, Christopeit, Merach, etc. Si toutefois votre rameur ne fonctionne pas avec RowerTrain, veuillez signaler le problème. Parfois les rameurs, surtout les modèles d'entrée de gamme, ne respectent pas en totalité le protocole FTMS. Mais, grâce aux retours des utilisateurs, plusieurs problèmes ont pu être corrigés et la compatibilité améliorée.
 
 Connectez simplement votre rameur à votre smartphone via Bluetooth et commencez votre séance d'aviron. Votre rameur doit supporter le protocole Bluetooth FTMS (Fitness Machine Service) pour fonctionner avec RowerTrain.
 
+## Compatibilité
+
+RowerTrain prend en charge les rameurs standard compatibles FTMS. Le niveau de compatibilité dépend du fabricant et du modèle. Certaines machines peuvent ne pas prendre en charge toutes les fonctionnalités, comme le réglage de la résistance.
+
+RowerTrain est connue pour fonctionner avec les fabricants et modèles suivants :
+
+- **Decathlon (Domyos)** : Woodrower, 900 et Initial 100. Le modèle 500B n'est pas compatible, car il ne prend pas en charge le protocole FTMS.
+- **Merach** : R11, R14, R15, R28, Q3, CRYDN, R26 et 950R
+- **Joroto**
+- **Yosuda**
+- Et probablement d'autres
+
+Pour vérifier la compatibilité avant d'acheter la version complète, connectez la machine à RowerTrain et essayez le mode Sortie libre ou la course olympique. Si la machine est compatible, ses données devraient s'afficher à l'écran et l'application devrait réagir à vos coups de rame.
+
 ## Note sur les séances d'entrainement proposées
 
-Les séances proposées sont données à titre d'exemple. Si vous trouvez qu'elles ne vous sont pas adaptées vous pourrez  créer vos propres séances d'entrainement en utilisant l'éditeur intégré. Vous pouvez aussi me signaler les éventuels problèmes et erreurs que vous rencontrez pour que je puisse les corriger.
+Les séances proposées sont données à titre d'exemple. Si vous trouvez qu'elles ne vous sont pas adaptées, vous pourrez créer vos propres séances d'entraînement en utilisant l'éditeur intégré. Vous pouvez aussi signaler les éventuels problèmes et erreurs rencontrés afin qu'ils puissent être examinés et corrigés.
 
 ## Contact & Commentaires
 
-Je suis ouvert aux suggestions et aux améliorations! N'hésitez pas à me contacter:
+Les suggestions et idées d'amélioration sont les bienvenues ! Contact :
 
 **Email:** support [at] rowertrain.com
 
@@ -38,7 +51,7 @@ Je suis ouvert aux suggestions et aux améliorations! N'hésitez pas à me conta
 [![Télécharger sur l'App Store](https://img.shields.io/badge/Download_on_the-App_Store-black?style=for-the-badge&logo=apple)](https://apps.apple.com/app/rowertrain/id6758657773)
 
 
-Je passe beaucoup de mon temps libre pour maintenir cette application et la rendre aussi utile que possible. Le mode "sortie libre" est gratuit dans la limite de 30min ou 6km, largement sufissant pour la plupart d'entre vous. Pour débloquer la totalité des fonctionnalités, vous devez effectuer un achat unique. N'hésitez pas à laisser un commentaire sur Google Play pour rendre l'application encore plus visible et populaire.
+RowerTrain est régulièrement maintenue afin de rester aussi utile que possible. Le mode "sortie libre" est gratuit dans la limite de 30 minutes ou 6 km, largement suffisant pour la plupart des utilisateurs. Pour débloquer la totalité des fonctionnalités, un achat unique est requis. Les commentaires sur Google Play contribuent à améliorer la visibilité et la popularité de l'application.
 
 
 ## Manuel d'utilisation
