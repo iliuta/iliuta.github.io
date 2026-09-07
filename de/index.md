@@ -25,7 +25,7 @@ Die angebotenen Trainingssitzungen dienen als Beispiele. Falls du diese nicht pa
 
 Ich bin offen für Vorschläge und Verbesserungen! Zögere nicht, mich zu kontaktieren:
 
-**E-Mail:** powertrainapp.sup [at] gmail.com
+**E-Mail:** support [at] rowertrain.com
 
 **Github-Probleme:** Öffne ein [Issue](https://github.com/iliuta/iliuta.github.io/issues) auf GitHub
 

@@ -18,7 +18,7 @@ The provided training sessions are given as examples. If you find they don't sui
 
 I'm open to suggestions and improvements! Feel free to reach out:
 
-**Email:** powertrainapp.sup [at] gmail.com
+**Email:** support [at] rowertrain.com
 
 **Github issues:** Open an [issue](https://github.com/iliuta/iliuta.github.io/issues) on GitHub
 

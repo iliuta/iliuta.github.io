@@ -31,7 +31,7 @@ The App aims to support:
 - The App is provided **"AS IS"** without any warranty of any kind
 - We make **no guarantees** about the App's performance, reliability, or fitness for any particular purpose
 - Use of the App is **entirely at your own risk**
-- However, we try to make it work as good as possible. If you find any issues, please report them to us at powertrainapp.sup [at] gmail.com or raise an issue on GitHub https://github.com/iliuta/iliuta.github.io
+- However, we try to make it work as good as possible. If you find any issues, please report them to us at support [at] rowertrain.com or raise an issue on GitHub https://github.com/iliuta/iliuta.github.io
 
 ### Limitation of Liability
 - The developer shall **not be liable** for any damages arising from the use or inability to use the App
@@ -80,7 +80,7 @@ You are responsible for:
 - Connection issues may be due to hardware, firmware, or environmental factors beyond our control
 
 ### Support
-- Issues may be reported on GitHub  or by email to powertrainapp.sup [at] gmail.com
+- Issues may be reported on GitHub  or by email to support [at] rowetrain.com
 
 
 ## Data and Privacy
@@ -113,7 +113,7 @@ These Terms are governed by the laws of the jurisdiction where the developer res
 ## Contact Information
 
 For questions about these Terms:
-- **Email**: powertrainapp.sup [at] gmail.com
+- **Email**: support [at] rowertrain.com
 - **GitHub Repository**: https://github.com/iliuta/iliuta.github.io
 - **Issues/Bugs**: Report via GitHub Issues
 
