@@ -2,7 +2,7 @@
 {% include change-language.md %}
 ## À Propos
 
-Bonjour! Je suis Adrian, et j'ai créé **RowerTrain** - une application pour rameurs connectés, conçue afin d'améliorer votre expérience d'entraînement et d'augmenter vos performances.
+**RowerTrain** est une application pour rameurs connectés, conçue afin d'améliorer votre expérience d'entraînement et d'augmenter vos performances.
 
 J'ai écrit initialement cette application pour les rameurs Decathlon Domyos. Il se trouve que chez Decathlon ils ont
 décidé de ne plus maintenir l'application Domyos eConnected et de diriger les utilisateurs vers l'application Kinomap. Je n'ai pas trouvé cette application très utile, donc j'ai décidé de créer la mienne.

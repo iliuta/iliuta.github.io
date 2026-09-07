@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+  <head>
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="RowerTrain app icon">
+        {% endif %}
+        <h1><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></h1>
+        <p>Indoor rowing training for connected rowers.</p>
+        <p class="view"><a href="https://apps.apple.com/app/rowertrain/id6758657773">Download on the App Store</a></p>
+        <p class="view"><a href="https://play.google.com/store/apps/details?id=com.iliuta.ftms">Get it on Google Play</a></p>
+      </header>
+      <section>
+        {{ content }}
+      </section>
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </body>
+</html>
