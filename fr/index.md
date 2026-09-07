@@ -1,3 +1,10 @@
+---
+layout: default
+title: RowerTrain | Application d'aviron
+lang: fr
+description: RowerTrain est une application d'aviron Bluetooth FTMS pour l'entraînement en intérieur, les séances structurées, la fréquence cardiaque, Strava et les parcours virtuels.
+---
+
 {% include google-analytics.html %}
 {% include change-language.md %}
 ## À Propos
