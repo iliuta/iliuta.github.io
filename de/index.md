@@ -7,23 +7,37 @@ description: RowerTrain ist eine Bluetooth-FTMS-Rudertrainings-App für struktur
 
 {% include google-analytics.html %}
 {% include change-language.md %}
-## Über mich
+## Über RowerTrain
 
 **RowerTrain** ist eine App für verbundene Ruderer, die dazu konzipiert ist, dein Trainingserlebnis zu verbessern und deine Ruderleistung zu steigern.
 
-Ich habe diese App ursprünglich für Decathlon Domyos Ruderer geschrieben. Es stellte sich heraus, dass Decathlon beschlossen hat, die Domyos eConnected-App nicht mehr zu warten und Benutzer zur Kinomap-App zu leiten. Ich fand diese App nicht sehr nützlich, also beschloss ich, meine eigene zu schaffen.
+RowerTrain wurde ursprünglich für Decathlon Domyos Ruderer entwickelt. Nachdem Decathlon beschlossen hatte, die Domyos eConnected-App nicht mehr zu warten und Benutzer zur Kinomap-App zu leiten, wurde RowerTrain als Alternative entwickelt.
 
-RowerTrain funktioniert mit einer breiten Palette von Ruderergometern, einschließlich beliebter Modelle wie Domyos 500, 900, Woodrower sowie anderer Marken wie Concept2, Christopeit, Merach und weitere. Wenn dein Ruderer nicht mit RowerTrain funktioniert, teile mir das bitte mit. Manchmal entsprechen Ruderer, besonders Einstiegsmodelle, nicht vollständig dem FTMS-Protokoll. Aber dank des Benutzer-Feedbacks konnte ich einige Probleme beheben und die Kompatibilität verbessern.
+RowerTrain funktioniert mit einer breiten Palette von Ruderergometern, einschließlich beliebter Modelle wie Domyos 500, 900, Woodrower sowie anderer Marken wie Concept2, Christopeit, Merach und weitere. Wenn dein Ruderer nicht mit RowerTrain funktioniert, melde das Problem bitte. Manchmal entsprechen Ruderer, besonders Einstiegsmodelle, nicht vollständig dem FTMS-Protokoll. Dank des Benutzer-Feedbacks konnten jedoch einige Probleme behoben und die Kompatibilität verbessert werden.
 
 Verbinde einfach deinen Ruderergometer über Bluetooth mit deinem Smartphone und starten dein Rudertraining. Dein Ruderer muss das Bluetooth FTMS (Fitness Machine Service) Protokoll unterstützen, um mit RowerTrain zu funktionieren.
 
+## Kompatibilität
+
+RowerTrain unterstützt standardmäßige FTMS-kompatible Rudergeräte. Der Grad der Kompatibilität hängt vom Hersteller und Modell ab. Einige Geräte unterstützen möglicherweise nicht alle Funktionen, wie zum Beispiel die Widerstandseinstellung.
+
+RowerTrain funktioniert nachweislich mit Geräten der folgenden Hersteller und Modelle:
+
+- **Decathlon (Domyos)**: Woodrower, 900 und Initial 100. Das Modell 500B ist nicht kompatibel, da es FTMS nicht unterstützt.
+- **Merach**: R11, R14, R15, R28, Q3, CRYDN, R26 und 950R
+- **Joroto**
+- **Yosuda**
+- Und wahrscheinlich weitere
+
+Um die Kompatibilität vor dem Kauf der vollständigen Version zu prüfen, verbinde das Gerät mit RowerTrain und teste den Modus Freies Fahren oder das olympische Rennen. Wenn das Gerät kompatibel ist, sollten seine Daten auf dem Bildschirm erscheinen und die App auf dein Rudern reagieren.
+
 ## Hinweis zu den vorgeschlagenen Trainingssitzungen
 
-Die angebotenen Trainingssitzungen dienen als Beispiele. Falls du diese nicht passend findest, kannst du deine eigenen Trainingssitzungen mit dem integrierten Editor erstellen. Du kannst mir auch bekannte Probleme und Fehler mitteilen, damit ich diese beheben kann.
+Die angebotenen Trainingssitzungen dienen als Beispiele. Falls du diese nicht passend findest, kannst du deine eigenen Trainingssitzungen mit dem integrierten Editor erstellen. Bekannte Probleme und Fehler können ebenfalls zur Prüfung und Behebung gemeldet werden.
 
 ## Kontakt & Feedback
 
-Ich bin offen für Vorschläge und Verbesserungen! Zögere nicht, mich zu kontaktieren:
+Vorschläge und Ideen zur Verbesserung sind willkommen! Kontakt:
 
 **E-Mail:** support [at] rowertrain.com
 
@@ -36,7 +50,7 @@ Ich bin offen für Vorschläge und Verbesserungen! Zögere nicht, mich zu kontak
 [![Im App Store herunterladen](https://img.shields.io/badge/Download_on_the-App_Store-black?style=for-the-badge&logo=apple)](https://apps.apple.com/app/rowertrain/id6758657773)
 
 
-Ich verbringe viel Zeit damit, diese App zu warten und sie so nützlich wie möglich zu machen. Der Modus "Freies Fahren" ist kostenlos in der Begrenzung auf 30 Minuten oder 6 km verfügbar, was für die meisten von Ihnen völlig ausreichend ist. Um alle Funktionen freizuschalten, müssen Sie einen einmaligen In-App-Kauf durchführen. Zögern Sie nicht, einen Kommentar auf Google Play zu hinterlassen, um die App noch sichtbarer und beliebter zu machen.
+RowerTrain wird kontinuierlich weiterentwickelt, um so nützlich wie möglich zu bleiben. Der Modus "Freies Fahren" ist bis zu 30 Minuten oder 6 km kostenlos verfügbar, was für die meisten Nutzer völlig ausreichend ist. Um alle Funktionen freizuschalten, ist ein einmaliger In-App-Kauf erforderlich. Kommentare auf Google Play helfen dabei, die App noch sichtbarer und beliebter zu machen.
 
 ## Benutzerhandbuch
 
