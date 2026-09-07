@@ -2,11 +2,8 @@
 layout: default
 title: RowerTrain
 lang: en
+description: RowerTrain is a Bluetooth FTMS rowing app for indoor rowing training, structured workouts, heart-rate tracking, Strava, and virtual routes.
 ---
-
-<link rel="alternate" hreflang="fr" href="https://iliuta.github.io/fr/" />
-<link rel="alternate" hreflang="de" href="https://iliuta.github.io/de/" />
-<link rel="alternate" hreflang="en" href="https://iliuta.github.io/" />
 
 <script>
   // Detect browser language and redirect to French or German version if applicable

@@ -2,27 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://iliuta.github.io/</loc>
+    <loc>https://www.rowertrain.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://iliuta.github.io/fr/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://iliuta.github.io/de/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://iliuta.github.io/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.rowertrain.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.rowertrain.com/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rowertrain.com/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rowertrain.com/" />
   </url>
   <url>
-    <loc>https://iliuta.github.io/fr/</loc>
+    <loc>https://www.rowertrain.com/fr/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://iliuta.github.io/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://iliuta.github.io/de/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://iliuta.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rowertrain.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.rowertrain.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.rowertrain.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rowertrain.com/" />
   </url>
   <url>
-    <loc>https://iliuta.github.io/de/</loc>
+    <loc>https://www.rowertrain.com/de/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://iliuta.github.io/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://iliuta.github.io/fr/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://iliuta.github.io/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rowertrain.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.rowertrain.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.rowertrain.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rowertrain.com/" />
   </url>
 </urlset>

@@ -1,3 +1,19 @@
 theme: jekyll-theme-minimal
 title: RowerTrain
 logo: /icons/rowertrain.png
+url: https://www.rowertrain.com
+baseurl: ""
+lang: en
+description: Bluetooth FTMS rowing app for indoor rowing training, structured workouts, heart-rate tracking, Strava integration, and virtual rowing routes.
+image: /icons/rowertrain.png
+twitter:
+  card: summary
+social:
+  name: RowerTrain
+  links:
+    - https://github.com/iliuta/ftms
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /icons/rowertrain.png

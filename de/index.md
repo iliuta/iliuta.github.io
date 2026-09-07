@@ -1,3 +1,10 @@
+---
+layout: default
+title: RowerTrain | Rudertrainings-App
+lang: de
+description: RowerTrain ist eine Bluetooth-FTMS-Rudertrainings-App für strukturierte Workouts, Herzfrequenzmessung, Strava und virtuelle Ruderrouten.
+---
+
 {% include google-analytics.html %}
 {% include change-language.md %}
 ## Über mich

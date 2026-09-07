@@ -3,19 +3,75 @@
   <head>
     {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+    <link rel="alternate" hreflang="de" href="{{ '/de/' | absolute_url }}">
+    <link rel="alternate" hreflang="fr" href="{{ '/fr/' | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "RowerTrain",
+        "description": {{ page.description | jsonify }},
+        "applicationCategory": "SportsApplication",
+        "operatingSystem": "Android, iOS",
+        "url": {{ page.url | absolute_url | jsonify }},
+        "image": {{ site.logo | absolute_url | jsonify }},
+        "downloadUrl": [
+          "https://apps.apple.com/app/rowertrain/id6758657773",
+          "https://play.google.com/store/apps/details?id=com.iliuta.ftms"
+        ]
+      }
+    </script>
+    <style>
+      .store-links {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+      }
+
+      .store-links a {
+        display: inline-flex;
+      }
+
+      .store-links img {
+        width: 32px;
+        height: 32px;
+        margin: 0;
+      }
+    </style>
     {% include head-custom.html %}
   </head>
   <body>
     <div class="wrapper">
       <header>
         {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="RowerTrain app icon">
+          <img src="{{ site.logo | relative_url }}" alt="RowerTrain">
         {% endif %}
         <h1><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></h1>
-        <p>Indoor rowing training for connected rowers.</p>
-        <p class="view"><a href="https://apps.apple.com/app/rowertrain/id6758657773">Download on the App Store</a></p>
-        <p class="view"><a href="https://play.google.com/store/apps/details?id=com.iliuta.ftms">Get it on Google Play</a></p>
+        {% if page.path contains 'de/' %}
+          <p>Indoor-Rudertraining für vernetzte Rudergeräte.</p>
+          {% assign app_store_label = 'Im App Store laden' %}
+          {% assign play_store_label = 'Bei Google Play laden' %}
+        {% elsif page.path contains 'fr/' %}
+          <p>Entraînement d'aviron en intérieur pour rameurs connectés.</p>
+          {% assign app_store_label = 'Télécharger sur l’App Store' %}
+          {% assign play_store_label = 'Télécharger sur Google Play' %}
+        {% else %}
+          <p>Indoor rowing training for connected rowers.</p>
+          {% assign app_store_label = 'Download on the App Store' %}
+          {% assign play_store_label = 'Get it on Google Play' %}
+        {% endif %}
+        <p class="view store-links">
+          <a href="https://apps.apple.com/app/rowertrain/id6758657773" aria-label="{{ app_store_label }}" title="{{ app_store_label }}">
+            <img src="https://cdn.simpleicons.org/apple" alt="Apple">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.iliuta.ftms" aria-label="{{ play_store_label }}" title="{{ play_store_label }}">
+            <img src="https://cdn.simpleicons.org/googleplay" alt="Google Play">
+          </a>
+        </p>
       </header>
       <section>
         {{ content }}
