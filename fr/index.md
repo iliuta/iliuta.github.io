@@ -26,7 +26,7 @@ Les séances proposées sont données à titre d'exemple. Si vous trouvez qu'ell
 
 Je suis ouvert aux suggestions et aux améliorations! N'hésitez pas à me contacter:
 
-**Email:** powertrainapp.sup [at] gmail.com
+**Email:** support [at] rowertrain.com
 
 **Problèmes Github:** Ouvrez une [issue](https://github.com/iliuta/iliuta.github.io/issues) sur GitHub
 
