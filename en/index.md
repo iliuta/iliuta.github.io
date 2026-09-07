@@ -2,7 +2,7 @@
 {% include change-language.md %}
 ## About
 
-Hello! I'm Adrian, and I've built **RowerTrain** - an app for connected rowers, designed to enhance your training experience and boost your rowing performance.
+**RowerTrain** is an app for connected rowers, designed to enhance your training experience and boost your rowing performance.
 
 I originally wrote this app for Decathlon Domyos rowers. It turned out that Decathlon decided to stop maintaining the Domyos eConnected app and direct users to the Kinomap app. I didn't find that app very useful, so I decided to create my own.
 

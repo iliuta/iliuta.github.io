@@ -2,7 +2,7 @@
 {% include change-language.md %}
 ## Über mich
 
-Hallo! Ich bin Adrian und habe **RowerTrain** entwickelt – eine App für verbundene Ruderer, die dazu konzipiert ist, dein Trainingserlebnis zu verbessern und deine Ruderleistung zu steigern.
+**RowerTrain** ist eine App für verbundene Ruderer, die dazu konzipiert ist, dein Trainingserlebnis zu verbessern und deine Ruderleistung zu steigern.
 
 Ich habe diese App ursprünglich für Decathlon Domyos Ruderer geschrieben. Es stellte sich heraus, dass Decathlon beschlossen hat, die Domyos eConnected-App nicht mehr zu warten und Benutzer zur Kinomap-App zu leiten. Ich fand diese App nicht sehr nützlich, also beschloss ich, meine eigene zu schaffen.
 
