@@ -1,7 +1,7 @@
 # Terms and Conditions for RowerTrain
 
 **Effective Date:** July 19, 2025  
-**Last Updated:** July 19, 2025
+**Last Updated:** September 12, 2026
 
 ## Introduction
 
