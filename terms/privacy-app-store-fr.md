@@ -1,7 +1,7 @@
 # Politique de Confidentialité pour RowerTrain
 
 **Date d'entrée en vigueur :** 6 février 2026  
-**Dernière mise à jour :** 6 février 2026
+**Dernière mise à jour :** 12 septembre 2026
 
 Chez **RowerTrain**, nous valorisons votre confidentialité tout en nous efforçant de vous offrir la meilleure expérience de rame possible. Cette politique explique quelles données nous traitons et pourquoi.
 
@@ -38,5 +38,5 @@ Nous pouvons mettre à jour notre Politique de Confidentialité de temps en temp
 ## 6. Nous Contacter
 Si vous avez des questions sur notre Politique de Confidentialité ou la gestion des données, veuillez nous contacter :
 
-- **Email** : powertrainapp.sup@gmail.com
-- **Site web** : [iliuta.github.io](https://iliuta.github.io)
+- **Email** : support [at] rowertrain.com
+- **Site web** : [rowertrain.com](https://rowertrain.com)

@@ -1,7 +1,7 @@
 # Datenschutzrichtlinie für RowerTrain
 
 **Gültig ab:** 6. Februar 2026  
-**Zuletzt aktualisiert:** 6. Februar 2026
+**Zuletzt aktualisiert:** 12. September 2026
 
 Bei **RowerTrain** schätzen wir Ihre Privatsphäre und bemühen uns gleichzeitig, Ihnen das bestmögliche Rudererlebnis zu bieten. Diese Richtlinie erklärt, welche Daten wir verarbeiten und warum.
 
@@ -38,5 +38,5 @@ Wir können unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Alle Ä
 ## 6. Kontaktieren Sie uns
 Wenn Sie Fragen zu unserer Datenschutzrichtlinie oder Datenverarbeitung haben, kontaktieren Sie uns bitte:
 
-- **E-Mail**: powertrainapp.sup@gmail.com
-- **Website**: [iliuta.github.io](https://iliuta.github.io)
+- **E-Mail**: support [at] rowertrain.com
+- **Website**: [rowertrain.com](https://rowertrain.com)

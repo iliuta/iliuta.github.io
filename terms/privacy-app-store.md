@@ -1,7 +1,7 @@
 # Privacy Policy for RowerTrain
 
 **Effective Date:** February 6, 2026  
-**Last Updated:** February 6, 2026
+**Last Updated:** September 12, 2026
 
 At **RowerTrain**, we value your privacy while striving to provide the best possible rowing experience. This policy explains what data we process and why.
 
@@ -38,5 +38,5 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
 ## 6. Contact Us
 If you have any questions about our Privacy Policy or data handling, please contact:
 
-- **Email**: powertrainapp.sup@gmail.com
-- **Website**: [iliuta.github.io](https://iliuta.github.io)
+- **Email**: support [at] rowertrain.com
+- **Website**: [rowertrain.com](https://rowertrain.com)

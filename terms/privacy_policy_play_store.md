@@ -1,7 +1,7 @@
 # Privacy Policy for RowerTrain
 
 **Effective Date:** July 19, 2025  
-**Last Updated:** July 19, 2025
+**Last Updated:** September 12, 2026
 
 ## Introduction
 
@@ -102,7 +102,8 @@ We may update this Privacy Policy periodically to reflect changes in our practic
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
-**GitHub**: https://github.com/iliuta/ftms  
+**e-mail**: support [at] rowertrain.com
+**GitHub**: https://github.com/iliuta/iliuta.github.io
 
 ## Consent
 
