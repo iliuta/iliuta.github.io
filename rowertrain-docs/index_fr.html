@@ -10,15 +10,6 @@
 
 <body>
     <div class="container">
-        <header>
-            <div class="header-content">
-                <img src="../icons/rowertrain.png" alt="RowerTrain Logo" class="app-icon">
-                <div>
-                    <h1>RowerTrain App</h1>
-                    <p>Guide utilisateur &amp; Documentation</p>
-                </div>
-            </div>
-        </header>
         <main>
 
             <nav id="table-of-contents">
@@ -29,7 +20,8 @@
                     <li><a href="#scan">Recherche d'appareils</a></li>
                     <li><a href="#start-training">Sessions d'entraînement</a></li>
                     <li><a href="#edit-training">Modification des sessions</a></li>
-                    <li><a href="#fit-files">Activités non synchronisées</a></li>
+                    <li><a href="#fit-files">Sessions passées</a></li>
+                    <li><a href="#manage-routes">Gérer les itinéraires</a></li>
                     <li><a href="#developer-mode">Mode développeur</a></li>
                     <li><a href="#credits">Crédits</a></li>
                 </ul>
@@ -53,9 +45,10 @@
             <li><strong>Se connecter à Strava</strong>: Connectez votre compte Strava pour synchroniser vos entraînements. Une fois connecté, vos sessions d'entraînement, une fois terminées, peuvent être téléchargées sur Strava.</li>
             <li><strong>Conserver les fichiers FIT après envoi</strong> : si l'option n'est pas cochée et que vous êtes connectés à Strava, les fichiers d'entrainement ne seront pas conservés en local.</li>
             <li><strong>Masquer la carte et le parcours GPS</strong> : si l'option est cochée, la carte et le parcours GPS ne seront pas affichés pendant les sessions d'entraînement ni conservés après.</li>
-            <li><strong>Sauvegarde et restauration des sessions d'entraînement</strong> Vous pouvez sauvegarder/restaurer vos sessions d'entrainement personnalisées sur le support de votre choix (Google Drive, Dropbox, Apple iCloud, etc, en fonction de ce qui est disponible sur votre téléphone). 
-                Utile dans le cas où vous changez de téléphone ou si vous souhaitez partager vos sessions d'entrainement avec 
+            <li><strong>Sauvegarde et restauration</strong> Vous pouvez sauvegarder/restaurer toutes vos données sur le support de votre choix (Google Drive, Dropbox, Apple iCloud, etc., en fonction de ce qui est disponible sur votre téléphone).
+                Utile dans le cas où vous changez de téléphone ou si vous souhaitez partager vos sessions d'entraînement ou vos itinéraires GPX personnalisés avec
                 d'autres utilisateurs de l'application.
+                Vous pouvez choisir de sauvegarder toutes vos données ou uniquement certains types de données, comme vos sessions d'entraînement personnalisées, vos itinéraires GPX personnalisés, vos sessions passées ou vos paramètres.
             </li>
             <li><strong>Pause automatique</strong> : Si l'option est activée, l'application mettra automatiquement en pause votre session d'entraînement en cas d'inactivité. Vous pouvez ajuster le délai d'inactivité ainsi que le délai de reprise. 
             Si votre rameur fournit des données d'allure trop basses, vous pouvez augmenter le délai d'inactivité pour éviter les pauses indésirables. De même, si vous souhaitez que la session reprenne plus rapidement après une pause, vous pouvez réduire le délai de reprise. Vous pouvez
@@ -197,7 +190,7 @@
         <ul>
             <li>Sauvegarder la session. Si connecté à Strava, la session est téléchargée automatiquement sur Strava. Vous la trouverez
                 là avec la carte d'itinéraire correspondante. Si pas connecté
-                à Strava, vous trouverez l'activité sous le menu "Activités non synchronisées"</li>
+                à Strava, vous trouverez l'activité sous le menu "Sessions passées"</li>
             <li>Continuer la session : la session sera prolongée pour que vous puissiez continuer à ramer avec les
                 mêmes paramètres que le dernier intervalle.</li>
             <li>Abandonner la session : toutes les données sont perdues</li>
@@ -228,13 +221,17 @@
 
     </section>
     <section id="fit-files">
-        <h2>Activités non synchronisées</h2>
-        <p>Sélectionnez "Activités non synchronisées" dans le menu burger.</p>
-        <p>Vous trouverez là les fichiers d'entraînement générés par l'application lorsqu'ils n'ont pas pu être envoyés à Strava.</p>
+        <h2>Sessions passées</h2>
+        <p>Sélectionnez "Sessions passées" dans la page principale.</p>
+        <p>Vous trouverez ici votre historique d'entraînement si vous avez choisi de conserver les sessions passées localement.</p>
         <p>Pour chacun, vous pouvez essayer de le télécharger sur Strava, le supprimer, ou le partager avec d'autres applications.</p>
-        <p>Appuyez sur le nom de l'activité. Vous verrez une représentation visuelle des données contenues dans le fichier, comme la vitesse/rythme,
-            la cadence et la fréquence cardiaque</p>
-        <p>Si vous êtes connecté à Strava et que les téléchargements n'ont pas échoué, la liste devrait être vide.</p>
+        <p>Appuyez sur le nom de l'activité. Toutes les données utiles de la session seront affichées : détails des intervalles, carte, représentation graphique de l'allure, de la cadence et de la fréquence cardiaque.</p>
+    </section>
+    <section id="manage-routes">
+        <h2>Gérer les itinéraires</h2>
+        <p>Sélectionnez "Gérer les itinéraires" dans la page principale.</p>
+        <p>Vous trouverez ici les itinéraires GPX intégrés et vos itinéraires personnalisés si l'option "Masquer la carte et les itinéraires GPX" n'est pas cochée.</p>
+        <p>Vous pouvez ajouter de nouveaux itinéraires en sélectionnant "Importer un itinéraire GPX" dans la page "Gérer les itinéraires". Vous pouvez également supprimer vos itinéraires personnalisés.</p>
     </section>
     <section id="developer-mode">
         <h2>Mode développeur</h2>

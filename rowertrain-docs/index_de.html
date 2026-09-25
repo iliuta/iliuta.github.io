@@ -10,15 +10,6 @@
 
 <body>
     <div class="container">
-        <header>
-            <div class="header-content">
-                <img src="../icons/rowertrain.png" alt="RowerTrain Logo" class="app-icon">
-                <div>
-                    <h1>RowerTrain App</h1>
-                    <p>Benutzerhandbuch &amp; Dokumentation</p>
-                </div>
-            </div>
-        </header>
         <main>
 
             <nav id="table-of-contents">
@@ -29,7 +20,8 @@
                     <li><a href="#scan">Geräte scannen</a></li>
                     <li><a href="#start-training">Trainingseinheiten</a></li>
                     <li><a href="#edit-training">Bearbeiten von Trainingseinheiten</a></li>
-                    <li><a href="#fit-files">Unsynchronisierte Aktivitäten</a></li>
+                    <li><a href="#fit-files">Vergangene Einheiten</a></li>
+                    <li><a href="#manage-routes">Routen verwalten</a></li>
                     <li><a href="#developer-mode">Entwicklermodus</a></li>
                     <li><a href="#credits">Danksagungen</a></li>
                 </ul>
@@ -53,9 +45,10 @@
             <li><strong>Strava verbinden</strong>: Verbinden Sie Ihr Strava-Konto, um Ihre Workouts zu synchronisieren. Sobald verbunden, können Ihre Trainingseinheiten, sobald sie abgeschlossen sind, auf Strava hochgeladen werden.</li>
             <li><strong>FIT-Dateien nach dem Upload behalten</strong>: wenn nicht aktiviert und Sie mit Strava verbunden sind, werden Trainingsdateien nicht lokal gespeichert.</li>
             <li><strong>Karte und GPS-Route ausblenden</strong>: wenn aktiviert, werden die Karte und die GPS-Route während der Trainingseinheiten nicht angezeigt und danach nicht gespeichert.</li>
-            <li><strong>Sicherung und Wiederherstellung von Trainingseinheiten</strong> Sie können Ihre benutzerdefinierten Trainingseinheiten auf dem Speichermedium Ihrer Wahl (Google Drive, Dropbox, Apple iCloud usw., je nachdem, was auf Ihrem Telefon verfügbar ist) sichern/wiederherstellen. 
-                Nützlich, falls Sie Ihr Telefon wechseln oder wenn Sie Ihre Trainingseinheiten mit 
+            <li><strong>Sicherung und Wiederherstellung</strong> Sie können alle Ihre Daten auf dem Speichermedium Ihrer Wahl (Google Drive, Dropbox, Apple iCloud usw., je nachdem, was auf Ihrem Telefon verfügbar ist) sichern/wiederherstellen.
+                Nützlich, falls Sie Ihr Telefon wechseln oder wenn Sie Ihre Trainingseinheiten oder benutzerdefinierten GPX-Routen mit
                 anderen Benutzern der App teilen möchten.
+                Sie können wählen, ob Sie alle Ihre Daten oder nur bestimmte Datentypen sichern möchten, z. B. Ihre benutzerdefinierten Trainingseinheiten, benutzerdefinierten GPX-Routen, vergangenen Einheiten oder Ihre Einstellungen.
             </li>
             <li><strong>Auto-Pause</strong>: Wenn aktiviert, pausiert die Anwendung Ihre Trainingseinheit automatisch bei Inaktivität. Sie können die Inaktivitätsverzögerung sowie die Wiederaufnahmeverzögerung anpassen. 
             Wenn Ihr Rudergerät zu niedrige Pace-Daten liefert, können Sie die Inaktivitätsverzögerung erhöhen, um unerwünschte Pausen zu vermeiden. Ebenso können Sie die Wiederaufnahmeverzögerung verringern, wenn Sie möchten, dass die Sitzung schneller nach einer Pause fortgesetzt wird. Sie können
@@ -197,7 +190,7 @@
         <ul>
             <li>Die Einheit speichern. Wenn mit Strava verbunden, wird die Einheit automatisch auf Strava hochgeladen. Sie finden
                 sie dort mit der entsprechenden Routenkarte. Wenn nicht verbunden
-                mit Strava, finden Sie die Aktivität unter dem Menü "Unsynchronisierte Aktivitäten"</li>
+                mit Strava, finden Sie die Aktivität unter dem Menü "Vergangene Einheiten"</li>
             <li>Die Einheit fortsetzen: Die Einheit wird verlängert, damit Sie weiter rudern können mit den
                 gleichen Einstellungen wie das letzte Intervall.</li>
             <li>Die Einheit verwerfen: Alle Daten gehen verloren</li>
@@ -231,13 +224,17 @@
 
     </section>
     <section id="fit-files">
-        <h2>Unsynchronisierte Aktivitäten</h2>
-        <p>Wählen Sie "Unsynchronisierte Aktivitäten" aus dem Burger-Menü.</p>
-        <p>Sie finden dort die Workout-Dateien, die von der App generiert wurden, als sie nicht an Strava gesendet werden konnten.</p>
+        <h2>Vergangene Einheiten</h2>
+        <p>Wählen Sie "Vergangene Einheiten" auf der Hauptseite.</p>
+        <p>Hier finden Sie Ihren Trainingsverlauf, wenn Sie sich dafür entschieden haben, vergangene Einheiten lokal zu speichern.</p>
         <p>Für jede können Sie versuchen, sie auf Strava hochzuladen, sie löschen oder mit anderen Apps teilen.</p>
-        <p>Tippen Sie auf den Aktivitätsnamen. Sie sehen eine visuelle Darstellung der Daten in der Datei, wie Geschwindigkeit/Pace,
-            Kadenz und Herzfrequenz</p>
-        <p>Wenn Sie mit Strava verbunden sind und Uploads nicht fehlgeschlagen sind, sollte die Liste leer sein.</p>
+        <p>Tippen Sie auf den Aktivitätsnamen. Alle nützlichen Daten der Einheit werden angezeigt: Intervallaufteilungen, Karte sowie grafische Darstellungen von Pace, Kadenz und Herzfrequenz.</p>
+    </section>
+    <section id="manage-routes">
+        <h2>Routen verwalten</h2>
+        <p>Wählen Sie "Routen verwalten" auf der Hauptseite.</p>
+        <p>Hier finden Sie die integrierten und Ihre benutzerdefinierten GPX-Routen, wenn die Option "Karte und GPX-Routen ausblenden" nicht aktiviert ist.</p>
+        <p>Sie können neue Routen hinzufügen, indem Sie auf der Seite "Routen verwalten" die Option "GPX-Route hochladen" auswählen. Sie können auch Ihre benutzerdefinierten Routen löschen.</p>
     </section>
     <section id="developer-mode">
         <h2>Entwicklermodus</h2>
