@@ -175,6 +175,10 @@ nav#table-of-contents a:hover {
     transform: translateX(3px);
 }
 
+nav#table-of-contents.safety-toc {
+    margin-bottom: 24px;
+}
+
 section {
     border-top: 1px solid var(--border);
     margin-bottom: 42px;
@@ -185,6 +189,29 @@ section {
 section:first-of-type {
     border-top: 0;
     padding-top: 0;
+}
+
+section.safety-notice {
+    background: #fff2d8;
+    border: 2px solid #b95427;
+    border-left-width: 8px;
+    border-radius: 8px;
+    margin: 0 0 32px;
+    padding: 20px 24px;
+}
+
+section.safety-notice h2 {
+    border-bottom: 1px solid #e6bd75;
+    color: #74320f;
+    margin-bottom: 12px;
+}
+
+section.safety-notice p {
+    color: #402b18;
+}
+
+section.safety-notice p:last-child {
+    margin-bottom: 0;
 }
 
 p {
