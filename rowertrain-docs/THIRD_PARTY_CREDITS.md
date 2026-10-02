@@ -1,6 +1,6 @@
 # Third-Party Credits
 
-This project uses the third-party packages below. Package versions are those resolved in `pubspec.lock` when this file was prepared. Each package name links to its project page; its license name links to the package's published license text.
+This project uses the third-party packages below.
 
 ## Runtime Dependencies
 
@@ -17,7 +17,6 @@ This project uses the third-party packages below. Package versions are those res
 | [firebase_app_installations](https://pub.dev/packages/firebase_app_installations) | 0.4.4 | [BSD-3-Clause](https://pub.dev/packages/firebase_app_installations/license) |
 | [firebase_core](https://pub.dev/packages/firebase_core) | 4.15.0 | [BSD-3-Clause](https://pub.dev/packages/firebase_core/license) |
 | [firebase_in_app_messaging](https://pub.dev/packages/firebase_in_app_messaging) | 0.9.4 | [BSD-3-Clause](https://pub.dev/packages/firebase_in_app_messaging/license) |
-| [fit_tool](https://github.com/iliuta/fit_tool) | 2.0.0 | [BSD-3-Clause](https://github.com/iliuta/fit_tool/blob/version/2.0.0/LICENSE) |
 | [fl_chart](https://pub.dev/packages/fl_chart) | 1.2.0 | [MIT](https://pub.dev/packages/fl_chart/license) |
 | [flutter_appauth](https://pub.dev/packages/flutter_appauth) | 12.1.0 | [BSD-3-Clause](https://pub.dev/packages/flutter_appauth/license) |
 | [flutter_map](https://pub.dev/packages/flutter_map) | 8.3.2 | [BSD-3-Clause](https://pub.dev/packages/flutter_map/license) |
@@ -47,20 +46,3 @@ This project uses the third-party packages below. Package versions are those res
 ## Flutter SDK
 
 The app also uses Flutter framework and localization packages supplied by the Flutter SDK. Flutter is distributed under the BSD 3-Clause license. See the [Flutter license](https://github.com/flutter/flutter/blob/master/LICENSE) and the notices included with the Flutter SDK.
-
-## Development Dependencies
-
-These packages support building, linting, and testing and are not normally presented as app runtime credits.
-
-| Package | Version | License |
-| --- | --- | --- |
-| [build_runner](https://pub.dev/packages/build_runner) | 2.16.1 | [BSD-3-Clause](https://pub.dev/packages/build_runner/license) |
-| [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) | 0.14.4 | [MIT](https://pub.dev/packages/flutter_launcher_icons/license) |
-| [flutter_lints](https://pub.dev/packages/flutter_lints) | 6.0.0 | [BSD-3-Clause](https://pub.dev/packages/flutter_lints/license) |
-| [mockito](https://pub.dev/packages/mockito) | 5.8.1 | [Apache-2.0](https://pub.dev/packages/mockito/license) |
-| [mocktail](https://pub.dev/packages/mocktail) | 1.0.5 | [MIT](https://pub.dev/packages/mocktail/license) |
-| [flutter_test](https://api.flutter.dev/flutter/flutter_test/flutter_test-library.html) | Flutter SDK | See the Flutter SDK license above. |
-
-## Scope
-
-This is a credits index for direct dependencies, not a replacement for the full license texts or required notices. Transitive Dart packages and native platform dependencies may carry additional notices. Before distributing a release, review the licenses and notices included in the app for each target platform and reproduce any notices required by those licenses.
