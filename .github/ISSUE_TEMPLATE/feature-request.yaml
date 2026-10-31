@@ -8,6 +8,78 @@ body:
       value: |
         Thank you for using RowerTrain and for suggesting a feature! Please fill out the sections below to help us understand your proposal.
 
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform are you using?
+      options:
+        - iOS
+        - Android
+    validations:
+      required: true
+  - type: input
+    id: platform_version
+    attributes:
+      label: Platform Version
+      description: What version of the platform are you using?
+      placeholder: e.g., iOS 16.4 or Android 13
+    validations:
+      required: false
+  - type: input
+    id: rower
+    attributes:
+      label: Rower
+      description: What model of rower are you using?
+      placeholder: e.g., Domyos woodrower, Merach, etc.
+    validations:
+      required: false
+  - type: dropdown
+    id: rower-resistance-type
+    attributes:
+      label: Resistance Type
+      description: What resistance mechanism does your rower use?
+      options:
+        - Magnetic
+        - Air
+        - Water
+        - Hydraulic
+        - Other / Unknown
+    validations:
+      required: false
+  - type: dropdown
+    id: rower-resistance-control
+    attributes:
+      label: Resistance Control
+      description: Does your rower support electronic/app-controlled resistance?
+      options:
+        - "Yes"
+        - "No"
+        - Not applicable (Manual/Water/Air knob)
+    validations:
+      required: false
+  - type: input
+    id: rower-resistance-range
+    attributes:
+      label: Resistance Range
+      description: If resistance control is supported, what is the range?
+      placeholder: e.g., 1–16 levels, 1–32 levels, etc.
+    validations:
+      required: false
+  - type: checkboxes
+    id: rower-measurements
+    attributes:
+      label: Available Measurements
+      description: Select all measurements and metrics your rower natively provides.
+      options:
+        - label: Pace / Split (e.g., /500m)
+        - label: Distance
+        - label: Stroke Rate (SPM)
+        - label: Power (Watts)
+        - label: Heart Rate
+    validations:
+      required: false
+
   - type: textarea
     id: problem
     attributes:
