@@ -25,6 +25,7 @@
                     <li><a href="#manage-routes">Routen verwalten</a></li>
                     <li><a href="#developer-mode">Entwicklermodus</a></li>
                     <li><a href="#credits">Danksagungen</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                 </ul>
             </nav>
 
@@ -268,6 +269,67 @@
         <h3>Maschinenfunktionen</h3>
         <p>Hier sind die Befehle, die an die Maschine gesendet werden können. Unter ihnen könnten Sie den "Widerstandslevel" setzen
             oder das Leistungsziel (ERG-Modus). Wenn Sie eines davon verwenden möchten, senden Sie immer zuerst den Anforderungskontrollbefehl.</p>
+    </section>
+    <section id="faq">
+        <h2>Häufig gestellte Fragen</h2>
+        <h3>Warum wird während eines Trainings eine zu niedrige Leistung angezeigt?</h3>
+        <p>RowerTrain zeigt die Leistung anhand der Daten an, die von Ihrem Fitnessgerät empfangen werden.
+            Die App berechnet die Leistung nicht selbst, sie hängt daher vollständig von den Gerätedaten ab.
+            Wenn die Leistung zu niedrig erscheint, wenden Sie sich bitte an den Hersteller Ihres Fitnessgeräts.
+        </p>
+        <h3>RowerTrain zeigt für 30 Minuten Training 250 kcal an, meine Garmin-Uhr aber 500 kcal. Warum?</h3>
+        <p>Die Abweichung kann entstehen, weil verschiedene Geräte und Apps unterschiedliche Algorithmen zur Schätzung des Kalorienverbrauchs verwenden.
+            RowerTrain berechnet die Kalorien nicht selbst, sondern zeigt die von Ihrem Fitnessgerät gemeldeten Werte an.
+            Ihre Garmin-Uhr kann dagegen Herzfrequenz, Alter, Gewicht und weitere Faktoren zur Schätzung heranziehen. Daher müssen die Werte nicht übereinstimmen.
+        </p>
+        <h3>Ich synchronisiere meine Trainings mit Apple Health. Warum sehe ich nicht alle Daten in der Fitness-App?</h3>
+        <p>RowerTrain schreibt Trainingsdaten wie Distanz, Dauer, verbrannte Kalorien und Herzfrequenz in Apple Health.
+            Sobald diese Daten an Apple Health übertragen wurden, entscheidet die Fitness-App, welche davon angezeigt werden.
+            Einige Datentypen werden möglicherweise nicht in der Fitness-App angezeigt, obwohl sie in Apple Health vorhanden sind.
+        </p>
+        <h3>Der Bereich für vergangene Trainingseinheiten ist leer. Warum?</h3>
+        <p>Ein leerer Bereich für vergangene Trainingseinheiten kann mehrere Gründe haben:</p>
+        <ul>
+            <li>Sie haben noch kein Training abgeschlossen.</li>
+            <li>Sie sind mit Strava verbunden und die Option „Dateien nach dem Hochladen behalten“ ist in den Einstellungen nicht aktiviert.</li>
+        </ul>
+        <p>Stellen Sie sicher, dass Sie Trainingseinheiten abgeschlossen haben und die Option „Dateien nach dem Hochladen behalten“ aktiviert ist, damit vergangene Trainings gespeichert bleiben.</p>
+        <h3>Ich lade meine Trainings zu Strava hoch, aber die Werte stimmen nicht mit RowerTrain überein. Warum?</h3>
+        <p>Die Abweichung kann entstehen, weil Strava und RowerTrain allgemeine Statistiken wie Leistung, Kalorien und Distanz unterschiedlich berechnen.
+            RowerTrain verwendet die Daten Ihres Fitnessgeräts, während Strava eigene Algorithmen zur Schätzung dieser Werte anwenden kann. Daher können sich die Zahlen auf den beiden Plattformen unterscheiden.</p>
+        <h3>Ich verwende den freien Rudermodus mit einem Gerät, das 32 Widerstandsstufen hat. Für Aufwärm- und Abkühlintervalle möchte ich bestimmte Widerstandsstufen festlegen.</h3>
+        <p>Derzeit unterstützt RowerTrain im freien Rudermodus keine konkreten Widerstandsstufen für Aufwärm- und Abkühlintervalle.
+            Diese Phasen sind vordefiniert, damit sie mit einer Vielzahl von Rudergeräten funktionieren, und können nicht auf bestimmte Widerstandsstufen angepasst werden.
+            Wenn Sie die Widerstandsstufen genau steuern möchten, können Sie ein eigenes Training erstellen und den genauen Widerstandsbereich Ihres Geräts auswählen.
+        </p>
+        <h3>Ich verwende einen Herzfrequenzgurt, aber die in RowerTrain angezeigten Werte sind zu niedrig, zu hoch oder schwanken.</h3>
+        <p>
+            RowerTrain unterstützt standardmäßige Herzfrequenzgurte mit Bluetooth-Verbindung.
+            Mögliche Ursachen sind ein falsch angelegter Gurt, ein schwacher Akku, Störungen durch andere elektronische Geräte
+            oder Kompatibilitätsprobleme. Achten Sie darauf, dass der Gurt richtig sitzt, der Akku geladen ist und sich keine Störquellen in der Nähe befinden. Falls für genaue Messungen Hautkontakt erforderlich ist, befeuchten Sie den Gurt außerdem.
+            Wenn die Werte weiterhin ungenau sind, vergleichen Sie sie mit einer anderen App, die Ihren Herzfrequenzgurt unterstützt, um festzustellen, ob das Problem bei RowerTrain liegt.
+            Auch ein sehr alter Gurt oder abgenutzte Elektroden können ungenaue Werte verursachen. Erwägen Sie in diesem Fall, den Gurt auszutauschen.
+        </p>
+        <h3>Ich verwende die RowerTrain-Begleit-App für die Apple Watch. Die Herzfrequenz ist unzuverlässig und manchmal veraltet.</h3>
+        <p>
+            Die RowerTrain-Begleit-App für die Apple Watch ist derzeit als Betaversion gekennzeichnet und verwendet den integrierten Herzfrequenzsensor der Uhr sowie Apple HealthKit.
+            Ein falscher Sitz der Uhr, ein schwacher Akku oder Einschränkungen des Sensors können zu ungenauen oder veralteten Messwerten führen.
+            Tragen Sie die Uhr eng am Handgelenk, achten Sie auf einen ausreichend geladenen Akku und halten Sie den Sensor sauber. Wenn das Problem weiterhin besteht, verwenden Sie für zuverlässigere Messungen einen separaten Herzfrequenzgurt.
+            RowerTrain steuert den Herzfrequenzsensor der Uhr nicht direkt.
+            Die Herzfrequenzdaten werden von RowerTrain weder heruntergerechnet noch verändert. Ungenauigkeiten stammen daher von der Uhr selbst oder von Apple HealthKit.
+        </p>
+        <h3>Warum funktioniert RowerTrain nicht mit meinem Rudergerät?</h3>
+        <p>RowerTrain wurde für Rudergeräte entwickelt, die das FTMS-Protokoll unterstützen.
+            Unterschiede bei Kommunikationsprotokollen, Firmwareversionen oder Hardwareeinschränkungen können zu Kompatibilitätsproblemen führen.
+            Trotz unserer Bemühungen, viele Rudergeräte zu unterstützen, kann es bei einigen Modellen weiterhin zu Problemen kommen. Manche Geräte geben außerdem vor, FTMS zu unterstützen, halten sich jedoch nicht vollständig an den Standard. Dies kann Verbindungs- und Funktionsprobleme mit RowerTrain verursachen.
+        </p>
+        <h3>Ich habe den Support kontaktiert, aber keine zufriedenstellende Antwort erhalten.</h3>
+        <p>
+            Wir bemühen uns, allen Nutzerinnen und Nutzern zeitnah und hilfreich zu antworten. Falls Ihr Anliegen nicht ausreichend bearbeitet wurde,
+            senden Sie bitte weitere Einzelheiten, Screenshots oder Protokolle, damit wir das Problem besser verstehen und lösen können.
+            Trotz unserer Bemühungen können wir die Besonderheiten jeder Situation ohne ausreichende Informationen nicht erraten.
+            Eine ausführliche Beschreibung hilft uns, Sie besser zu unterstützen.
+        </p>
     </section>
     <section id="credits">
         <h2>Credits</h2>

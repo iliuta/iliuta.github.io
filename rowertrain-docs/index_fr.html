@@ -25,6 +25,7 @@
                     <li><a href="#manage-routes">Gérer les itinéraires</a></li>
                     <li><a href="#developer-mode">Mode développeur</a></li>
                     <li><a href="#credits">Crédits</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                 </ul>
             </nav>
 
@@ -281,6 +282,67 @@
         <h3>Fonctionnalités de machine</h3>
         <p>Voici les commandes qui peuvent être envoyées à la machine. Parmi elles, vous pourriez pouvoir définir le "niveau de résistance"
             ou la cible de puissance (mode ERG). Lorsque vous voulez utiliser l'une de celles-ci, envoyez toujours d'abord la commande de contrôle de demande.</p>
+    </section>
+    <section id="faq">
+        <h2>FAQ</h2>
+        <h3>Pourquoi la puissance affichée pendant une séance est-elle trop faible?</h3>
+        <p>RowerTrain affiche la puissance à partir des données reçues de votre appareil de fitness.
+            L'application ne calcule pas elle-même la puissance : celle-ci dépend donc entièrement des données de l'appareil.
+            Si la puissance vous semble trop faible, contactez le fabricant de votre appareil de fitness pour obtenir de l'aide.
+        </p>
+        <h3>RowerTrain affiche 250 kcal pour 30 minutes d'exercice, mais ma montre Garmin indique 500 kcal. Pourquoi?</h3>
+        <p>Cette différence peut s'expliquer par le fait que les appareils et les applications utilisent différents algorithmes pour estimer les calories brûlées.
+            RowerTrain ne calcule pas les calories, mais affiche celles indiquées par votre appareil de fitness,
+            tandis que votre montre Garmin peut utiliser la fréquence cardiaque, l'âge, le poids et d'autres facteurs pour les estimer. Les chiffres peuvent donc différer.
+        </p>
+        <h3>Je synchronise mes séances avec Apple Santé. Pourquoi ne vois-je pas toutes les données dans l'app Forme?</h3>
+        <p>RowerTrain enregistre dans Apple Santé les données de la séance, notamment la distance, la durée, les calories brûlées et la fréquence cardiaque.
+            Une fois ces données transmises à Apple Santé, leur affichage dépend de l'app Forme.
+            Certains types de données peuvent ne pas apparaître dans l'app Forme même s'ils sont disponibles dans Apple Santé.
+        </p>
+        <h3>La section des séances passées est vide. Pourquoi?</h3>
+        <p>Si la section des séances passées est vide, plusieurs raisons sont possibles :</p>
+        <ul>
+            <li>Vous n'avez encore terminé aucune séance.</li>
+            <li>Vous êtes connecté à Strava et la case « conserver les fichiers après l'envoi » n'est pas cochée dans les paramètres.</li>
+        </ul>
+        <p>Vérifiez que vous avez terminé des séances et que l'option « conserver les fichiers après l'envoi » est activée pour conserver leur historique.</p>
+        <h3>J'envoie mes séances sur Strava, mais les chiffres diffèrent de ceux de RowerTrain. Pourquoi?</h3>
+        <p>Cette différence peut s'expliquer par le fait que Strava et RowerTrain calculent différemment certaines statistiques,
+            comme la puissance, les calories et la distance. RowerTrain utilise les données reçues de votre appareil de fitness, tandis que Strava peut appliquer ses propres algorithmes pour estimer ces valeurs. Les chiffres des deux plateformes peuvent donc différer.</p>
+        <h3>J'utilise le mode de rame libre avec un appareil proposant 32 niveaux de résistance. Je souhaite définir des niveaux précis pour les intervalles d'échauffement et de récupération.</h3>
+        <p>Pour le moment, RowerTrain ne permet pas de définir des niveaux de résistance précis pour les phases d'échauffement et de récupération en mode de rame libre.
+            Ces phases sont prédéfinies afin de fonctionner avec un large éventail de rameurs et ne peuvent pas être personnalisées selon les niveaux de résistance d'un appareil.
+            Pour contrôler précisément la résistance, vous pouvez créer une séance personnalisée et sélectionner la plage de résistance exacte de votre appareil.
+        </p>
+        <h3>J'utilise une ceinture cardio, mais les données affichées dans RowerTrain sont trop faibles, trop élevées ou irrégulières.</h3>
+        <p>
+            RowerTrain prend en charge les ceintures cardio standard qui communiquent par Bluetooth.
+            Plusieurs facteurs peuvent être en cause : mauvais positionnement de la ceinture, batterie faible, interférences avec d'autres appareils électroniques
+            ou problèmes de compatibilité. Vérifiez que la ceinture est correctement portée, que sa batterie est chargée et qu'il n'y a pas de source d'interférences à proximité. Si votre ceinture nécessite un contact avec la peau pour mesurer correctement, pensez également à humidifier les électrodes.
+            Si les données restent imprécises, comparez-les avec celles d'une autre application compatible avec votre ceinture afin de déterminer si le problème vient de RowerTrain.
+            Une ceinture ancienne ou dont les électrodes sont usées peut également fournir des mesures inexactes. Dans ce cas, envisagez de la remplacer.
+        </p>
+        <h3>J'utilise l'app compagnon RowerTrain pour montre. La fréquence cardiaque n'est pas fiable et reste parfois figée.</h3>
+        <p>
+            L'app compagnon RowerTrain pour montre est actuellement en version bêta et s'appuie sur le capteur de fréquence cardiaque intégré à la montre ainsi que sur Apple HealthKit.
+            Un mauvais positionnement de la montre, une batterie faible ou les limites du capteur peuvent entraîner des mesures imprécises ou figées.
+            Portez la montre bien ajustée au poignet, vérifiez que sa batterie est suffisamment chargée et que le capteur est propre. Si le problème persiste, essayez une ceinture cardio dédiée, qui fournit des mesures plus fiables.
+            RowerTrain ne contrôle pas directement le capteur de fréquence cardiaque de la montre.
+            Les données de fréquence cardiaque ne sont ni sous-échantillonnées ni modifiées par RowerTrain : les imprécisions proviennent donc de la montre ou d'Apple HealthKit.
+        </p>
+        <h3>Pourquoi RowerTrain ne fonctionne-t-il pas avec mon rameur?</h3>
+        <p>RowerTrain est conçu pour fonctionner avec les rameurs compatibles avec le protocole FTMS.
+            Des différences de protocoles de communication, de versions de micrologiciel ou de limitations matérielles peuvent entraîner des problèmes de compatibilité.
+            Malgré nos efforts pour prendre en charge un large éventail de rameurs, certains modèles peuvent présenter des problèmes de compatibilité. Certains rameurs prétendent également prendre en charge FTMS sans respecter entièrement la norme, ce qui peut entraîner des problèmes de connexion ou de fonctionnement avec RowerTrain.
+        </p>
+        <h3>J'ai contacté le support, mais la réponse ne m'a pas satisfait.</h3>
+        <p>
+            Nous nous efforçons de répondre rapidement et utilement à toutes les demandes. Si votre problème n'a pas été suffisamment traité,
+            fournissez des détails supplémentaires, des captures d'écran ou des journaux afin de nous aider à mieux le comprendre et à le résoudre.
+            Malgré tous nos efforts, nous ne pouvons pas deviner les particularités de chaque situation sans informations suffisantes.
+            Un contexte détaillé nous permet de vous aider plus efficacement.
+        </p>
     </section>
     <section id="credits">
         <h2>Credits</h2>

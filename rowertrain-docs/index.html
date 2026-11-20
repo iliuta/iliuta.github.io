@@ -25,6 +25,7 @@
                     <li><a href="#manage-routes">Manage routes</a></li>
                     <li><a href="#developer-mode">Developer Mode</a></li>
                     <li><a href="#credits">Credits</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                 </ul>
             </nav>
 
@@ -270,6 +271,79 @@
         <p>Here are the commands that can be sent to the machine. Among them, you might be able to set the "resistance
             level" or the power target (ERG mode). When you want to use one of those, always send the request control
             command first.</p>
+    </section>
+    <section id="faq">
+        <h2>FAQ</h2>
+        <h3>Why is the power displayed while in a workout too low?</h3>
+        <p>RowerTrain displays the power based on the data received from your fitness machine. 
+            The power is not calculated independently by the app, so it depends entirely on the machine's data.
+            If the power seems too low, consider contacting the manufacturer of your fitness machine for support.
+        </p>
+        <h3>RowerTrain displays 250 kcal for 30 minutes of exercise but my Garmin watch says I burned 500 kcal. Why is that?</h3>
+        <p>The discrepancy can occur because different devices and apps may use different algorithms to estimate calories burned. 
+            RowerTrain does not calculate calories but displays the calories reported by your fitness machine,
+            while your Garmin watch may use heart rate, age, weight, and other factors to estimate calories. As a result, the numbers may not match exactly.
+        </p>
+        <h3>I sync my workouts with Apple Health. Why can't I see all data in the Fitness app?</h3>
+        <p>RowerTrain writes workout data, such as distance, duration, calories burned, and heart rate, to Apple Health.
+            Once this data is transmitted to Apple Health, it's up to the Fitness app to display it.
+            Some data types may not be shown in the Fitness app even though they exist in Apple Health.
+        </p>
+        <h3>The past workouts section is empty. Why?</h3>
+        <p>If the past workouts section is empty, it could be due to several reasons:
+            <ul>
+                <li>You haven't completed any workouts yet.</li>
+                <li>You are connected to Strava and 
+                    the checkbox "keep files after upload" is not enabled in the settings.</li>
+            </ul>
+            Ensure that you have completed workouts and that the "keep files after upload" setting is enabled to retain past workout data.
+        </p>
+        <h3>I upload my workouts to Strava but the numbers are not the same as in RowerTrain. Why is that?</h3>
+        <p>The discrepancy can occur because Strava and RowerTrain may calculate global statistics
+            like power, calories, and distance differently. RowerTrain relies on the data received from your fitness machine, while Strava may apply its own algorithms to estimate these values. As a result, the numbers may not match exactly between the two platforms.</p>
+        <h3>I use the free ride mode with my machine which has 32 resistance levels. I want to set specific resistance levels for warm up and cool down intervals.</h3>
+        <p>Currently, RowerTrain does not support setting specific resistance levels for warm up and cool down intervals 
+            in free ride mode. Warm up and cool down are predefined phases that must work with a broad range of rowers 
+            and cannot be customized for specific resistance levels.
+            If you want to have exact control over resistance levels, you can create a custom training session and select the exact
+            resistance range of your machine.
+        </p>
+        <h3>I use a heart rate strap but the data displayed in RowerTrain is either too low or too high or inconsistent</h3>
+        <p>
+            RowerTrain supports standard heart rate straps that communicate via Bluetooth.
+            This can happen due to several factors, including improper strap placement, low battery, interference from other electronic devices, 
+            or compatibility issues with your heart rate strap. Ensure that the strap is worn correctly, the battery is charged, and there 
+            are no sources of interference nearby. Additionally make sure to humidify the strap if it requires skin contact for accurate readings.
+            If it's still not providing accurate readings, try comparing the data with another app that supports your heart rate strap to determine 
+            if the issue is specific to RowerTrain.
+            Sometimes, heart rate straps that are too old or have worn-out electrodes may also produce inaccurate readings. In such cases, consider replacing 
+            the strap with a new one to ensure reliable heart rate data.
+        </p>
+        <h3>I use the RowerTrain watch companion app. The heart rate is not reliable and sometimes is stale</h3>
+        <p>
+            The RowerTrain watch companion app is currently marked as "beta" and relies on the watch's built-in heart rate sensor and
+            on Apple Healthkit. 
+            Inaccurate or stale readings can occur due to improper watch placement, low battery, or sensor limitations. 
+            Ensure that the watch is worn snugly on your wrist, the battery is sufficiently charged, and the sensor area is 
+            clean. If the issue persists, consider using a dedicated heart rate strap for more reliable readings.
+            Also, please note that RowerTrain does not directly control the watch's heart rate sensor. 
+            HR data is not downsampled or modified by RowerTrain, so any inaccuracies originate from the watch or Apple Healthkit itself.
+        </p>
+        <h3>Why RowerTrain doesn't work with my rower?</h3>
+        <p> RowerTrain is an application designed to work with rowers that support the FTMS protocol.
+            Compatibility issues can arise due to differences 
+            in communication protocols, firmware versions, or hardware limitations. 
+            Despite our efforts to support a wide range of rowers, some models may still encounter 
+            compatibility issues. Also, some rowers pretend implementing FTMS protocol but do not fully comply 
+            with the standard, leading to potential connectivity and functionality issues with RowerTrain.
+        </p>
+        <h3>I contacted support but did not receive a satisfactory response</h3>
+        <p>
+            We strive to provide timely and helpful support to all our users. If you feel that your issue was not adequately addressed, 
+            please consider providing additional details, screenshots, or logs to help us better understand and resolve your problem. 
+            Despite of our efforts to provide comprehensive support, we cannot guess the specifics of every user's situation without 
+            sufficient information. Providing detailed context helps us assist you more effectively.
+        </p>
     </section>
     <section id="credits">
         <h2>Credits</h2>
