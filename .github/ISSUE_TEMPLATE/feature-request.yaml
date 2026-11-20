@@ -75,6 +75,7 @@ body:
         - label: Pace / Split (e.g., /500m)
         - label: Distance
         - label: Stroke Rate (SPM)
+        - label: Calories
         - label: Power (Watts)
         - label: Heart Rate
     validations:
