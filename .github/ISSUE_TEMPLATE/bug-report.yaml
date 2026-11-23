@@ -124,3 +124,19 @@ body:
       description: Attach a screenshot of the issue if applicable.
     validations:
       required: false
+  - type: textarea
+    id: ble-logs
+    attributes:
+      label: BLE Logs
+      description: |
+        On Android, please capture and attach BLE logs. iOS support is coming later.
+
+        1. Enable Developer Mode in Settings.
+        2. Connect to the rower and tap "Open".
+        3. Tap "Capture raw device data".
+        4. Tap "Start capture".
+        5. Using your rower's dial, start a workout and row for a while.
+        6. Tap "Stop and share".
+        7. Attach the captured file here.
+    validations:
+      required: false
