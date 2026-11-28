@@ -129,8 +129,11 @@ body:
     attributes:
       label: BLE Logs
       description: |
-        On Android, please capture and attach BLE logs. iOS support is coming later.
-
+        If you feel like your problem is related to your rower's compatibility with RowerTrain 
+        (like missing data or incorrect readings), please capture and attach BLE logs.
+        
+        Here is how to do it:
+  
         1. Enable Developer Mode in Settings.
         2. Connect to the rower and tap "Open".
         3. Tap "Capture raw device data".
